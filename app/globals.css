@@ -56,3 +56,77 @@ body {
 		background-position: right;
 	}
 }
+
+@-webkit-keyframes banner-animation {
+	0% {
+		background-position: left;
+	}
+
+	33% {
+		background-position: top;
+	}
+
+	66% {
+		background-position: bottom;
+	}
+
+	100% {
+		background-position: right;
+	}
+}
+
+@-moz-keyframes banner-animation {
+	0% {
+		background-position: left;
+	}
+
+	33% {
+		background-position: top;
+	}
+
+	66% {
+		background-position: bottom;
+	}
+
+	100% {
+		background-position: right;
+	}
+}
+
+.slider-bar {
+	will-change: transform;
+	animation-name: moveSlideshow;
+	animation-duration: 100s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes moveSlideshow {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(-50%);
+	}
+}
+
+@-webkit-keyframes moveSlideshow {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(-50%);
+	}
+}
+
+@-moz-keyframes moveSlideshow {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(-50%);
+	}
+}
