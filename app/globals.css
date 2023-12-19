@@ -5,6 +5,14 @@
 :root {
 	--boost-tan-1: #fdf3e9;
 	--boost-black-1: #303030;
+	--banner-gradient: linear-gradient(
+		40deg,
+		#b2dcc7,
+		#a4d9e1,
+		#ffecd2,
+		#f4dcd4,
+		#faaf98
+	);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,4 +28,30 @@ body {
 			rgb(var(--background-end-rgb))
 		)
 		rgb(var(--background-start-rgb));
+}
+
+.banner-container {
+	background-image: var(--banner-gradient);
+	-webkit-animation: banner-animation 15s infinite alternate;
+	-moz-animation: banner-animation 15s infinite alternate;
+	animation: banner-animation 15s infinite alternate;
+	background-size: 400%;
+}
+
+@keyframes banner-animation {
+	0% {
+		background-position: left;
+	}
+
+	33% {
+		background-position: top;
+	}
+
+	66% {
+		background-position: bottom;
+	}
+
+	100% {
+		background-position: right;
+	}
 }
