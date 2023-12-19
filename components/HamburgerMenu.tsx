@@ -12,7 +12,9 @@ const HamburgerMenu = () => {
 
 	return (
 		<>
-			<button onClick={handleClick}>
+			<button
+				onClick={handleClick}
+				className="flex justify-center items-center">
 				<Image
 					src="/hamburger-solid.svg"
 					width={0}

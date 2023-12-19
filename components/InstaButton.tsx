@@ -9,7 +9,7 @@ type InstaButtonProps = {
 const InstaButton: FC<InstaButtonProps> = ({ children, href }) => {
 	return (
 		<Link
-			className="bg-white px-5 p-2 rounded-2xl border-[1px] border-black font text-lg"
+			className="bg-white px-5 p-1 rounded-2xl border-[1px] border-boost-black-1 font text-lg whitespace-nowrap"
 			href={href}>
 			{children}
 		</Link>
