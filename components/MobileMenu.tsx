@@ -13,7 +13,7 @@ type MobileMenuProps = {
 const MovileMenu: FC<MobileMenuProps> = ({ menuOpen, handleClick }) => {
 	return (
 		<div
-			className={`w-[310px] h-full bg-boost-tan-1 fixed left-[-310px] top-0 z-10 transition-all duration-300 border-[2px] border-boost-black-1 ${
+			className={`w-[310px] h-full bg-boost-tan-1 fixed left-[-310px] top-0 z-10 transition-all duration-300 border-[2px] border-boost-black-2 ${
 				menuOpen ? "!left-0" : ""
 			}`}>
 			<div className="flex flex-col h-full overflow-y-auto">
@@ -43,7 +43,7 @@ const MovileMenu: FC<MobileMenuProps> = ({ menuOpen, handleClick }) => {
 					</div>
 				</div>
 
-				<div className="p-8  mt-auto sticky bottom-0 border-t-[2px] border-boost-black-1 bg-boost-tan-1 flex justify-around">
+				<div className="p-8  mt-auto sticky bottom-0 border-t-[2px] border-boost-black-2 bg-boost-tan-1 flex justify-around">
 					<SocialButton href="/example" imgSrc="/instagram.svg" />
 					<SocialButton href="/example" imgSrc="/facebook.svg" />
 					<SocialButton href="/example" imgSrc="/linkedin-in.svg" />

@@ -25,6 +25,7 @@ const config: Config = {
       colors: {
 				"boost-tan-1": "var(--boost-tan-1)",
 				"boost-black-1": "var(--boost-black-1)",
+        "boost-black-2": "var(--boost-black-2)",
 			},
     },
   },
