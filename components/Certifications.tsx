@@ -5,7 +5,7 @@ import { montserrat } from "../app/fonts";
 
 const Cetifications = () => {
 	return (
-		<div className="cetifications-container p-16 pb-28">
+		<>
 			<Title>Certifications</Title>
 			<div className=" flex flex-wrap justify-center items-center gap-24 mt-28 xl:gap-48">
 				<div
@@ -51,7 +51,7 @@ const Cetifications = () => {
 					</p>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 };
 

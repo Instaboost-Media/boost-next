@@ -15,7 +15,9 @@ const Title: FC<TitleProps> = ({ children }) => {
 				alt="instaboost logo"
 				className="w-8"
 			/>
-			<h2 className="text-3xl xs:text-5xl text-boost-black-1">{children}</h2>
+			<h2 className="text-3xl xs:text-5xl text-boost-black-1 whitespace-nowrap">
+				{children}
+			</h2>
 			<Image
 				src="/star-solid.svg"
 				width={0}

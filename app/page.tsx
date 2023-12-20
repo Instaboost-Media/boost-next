@@ -1,7 +1,8 @@
 import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
 import Scroller from "@/components/Scroller";
-import Cetifications from "@/components/Cetifications";
+
+import CertsAndWhyBoost from "@/components/CertsAndWhyBoost";
 
 export default function Home() {
 	return (
@@ -9,7 +10,7 @@ export default function Home() {
 			<Navbar />
 			<Banner />
 			<Scroller />
-			<Cetifications />
+			<CertsAndWhyBoost />
 		</div>
 	);
 }
