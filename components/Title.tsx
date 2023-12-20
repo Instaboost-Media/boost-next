@@ -7,7 +7,7 @@ type TitleProps = {
 
 const Title: FC<TitleProps> = ({ children }) => {
 	return (
-		<div className="flex items-center justify-center gap-2">
+		<div className="flex items-center justify-center gap-3">
 			<Image
 				src="/star-solid.svg"
 				width={0}
@@ -15,7 +15,7 @@ const Title: FC<TitleProps> = ({ children }) => {
 				alt="instaboost logo"
 				className="w-8"
 			/>
-			<h2 className="text-4xl text-boost-black-1">{children}</h2>
+			<h2 className="text-3xl xs:text-5xl text-boost-black-1">{children}</h2>
 			<Image
 				src="/star-solid.svg"
 				width={0}
