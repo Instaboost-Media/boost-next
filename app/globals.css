@@ -14,23 +14,27 @@
 		#f4dcd4,
 		#faaf98
 	);
+	--homepage-gradient: linear-gradient(
+		219deg,
+		rgb(207, 216, 221) 0%,
+		rgb(207, 216, 221) 25%,
+		rgb(246, 234, 198) 100%
+	);
+	--homepage-gradient-sec: linear-gradient(
+		143deg,
+		rgb(226, 228, 229) 0%,
+		rgb(207, 216, 221) 25%,
+		rgb(251, 204, 182) 100%
+	);
+	--homepage-gradient-third: linear-gradient(
+		207deg,
+		rgb(207, 216, 221) 0%,
+		rgb(207, 216, 221) 25%,
+		rgb(246, 234, 199) 100%
+	);
 }
 
-@media (prefers-color-scheme: dark) {
-	:root {
-	}
-}
-
-body {
-	color: rgb(var(--foreground-rgb));
-	background: linear-gradient(
-			to bottom,
-			transparent,
-			rgb(var(--background-end-rgb))
-		)
-		rgb(var(--background-start-rgb));
-}
-
+/* ----------------- Banner Background ----------------- */
 .banner-container {
 	background-image: var(--banner-gradient);
 	-webkit-animation: banner-animation 15s infinite alternate;
@@ -93,6 +97,32 @@ body {
 	}
 }
 
+.banner-visual {
+	min-height: 255px;
+	min-width: 230px;
+	height: 255px;
+	width: 230px;
+	border-radius: 100%/180px 180px 0 0;
+	object-fit: cover;
+}
+
+@media only screen and (min-width: 1024px) {
+	.banner-visual {
+		min-height: 470px;
+		min-width: 414px;
+		height: 470px;
+		width: 414px;
+		border-radius: 100%/310px 310px 0 0;
+	}
+}
+
+.font-border {
+	color: white;
+	text-shadow: -1px 1px 0 #303030, 1px 1px 0 #303030, 1px -1px 0 #303030,
+		-1px -1px 0 #303030;
+}
+
+/* ----------------- Slider Bar ----------------- */
 .slider-bar {
 	will-change: transform;
 	animation-name: moveSlideshow;
@@ -129,4 +159,10 @@ body {
 	to {
 		transform: translateX(-50%);
 	}
+}
+
+/* ----------------- Certifications ----------------- */
+.cetifications-container {
+	background-image: var(--homepage-gradient-sec);
+	background-size: 400%;
 }

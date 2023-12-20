@@ -11,7 +11,7 @@ type MobileMenuItemProps = {
 const MobileMenuItem: FC<MobileMenuItemProps> = ({ children, href }) => {
 	return (
 		<Link
-			className={`w-full p-6 pl-0 text-lg ${montserrat.className}`}
+			className={`w-full p-6 pl-0 text-lg font-normal ${montserrat.className} `}
 			href={href}>
 			{children}
 		</Link>

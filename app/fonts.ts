@@ -8,7 +8,7 @@ export const playfair = Playfair({
 
  
 export const montserrat = Montserrat({
-weight: "500",
+  weight: ['300', '400', '500', '600', '700', '800', '900'],
   subsets: ['latin'],
   display: 'swap',
 })

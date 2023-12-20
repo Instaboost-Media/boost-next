@@ -26,6 +26,11 @@ const config: Config = {
 				"boost-tan-1": "var(--boost-tan-1)",
 				"boost-black-1": "var(--boost-black-1)",
         "boost-black-2": "var(--boost-black-2)",
+        "banner-gradient": "var(--banner-gradient)",
+        "homepage-gradient": "var(----homepage-gradient)",
+        "homepage-gradient-sec": "var(--homepage-gradient-sec)",
+        "homepage-gradient-third": "var(--homepage-gradient-third)",
+
 			},
     },
   },

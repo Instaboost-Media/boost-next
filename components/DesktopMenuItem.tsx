@@ -10,7 +10,9 @@ type DesktopMenuItemProps = {
 
 const DesktopMenuItem: FC<DesktopMenuItemProps> = ({ children, href }) => {
 	return (
-		<Link className={`whitespace-nowrap  ${montserrat.className}`} href={href}>
+		<Link
+			className={`whitespace-nowrap font-normal ${montserrat.className}`}
+			href={href}>
 			{children}
 		</Link>
 	);
