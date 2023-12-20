@@ -183,5 +183,11 @@
 /* ----------------- Certifications ----------------- */
 .cetifications-container {
 	background-image: var(--homepage-gradient-sec);
-	background-size: 400%;
+	background-size: 200%;
+}
+
+/* ----------------- Bundles ----------------- */
+.bundles-container {
+	background-image: var(--homepage-gradient);
+	background-size: 100%;
 }

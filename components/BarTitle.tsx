@@ -1,8 +1,15 @@
-import React from "react";
+import React, { FC, ReactNode } from "react";
+import Title from "./Title";
 
-const BarTitle = () => {
+type BarTitleProps = {
+	children: ReactNode;
+};
+
+const BarTitle: FC<BarTitleProps> = ({ children }) => {
 	return (
-		<div className="h-14 bg-boost-tan-1  border-y-[2px] border-boost-black-2 overflow-hidden flex items-center p-4"></div>
+		<div className="bg-boost-tan-1 border-y-[2px] border-boost-black-2 overflow-hidden flex items-center p-4 justify-center">
+			<Title>{children}</Title>
+		</div>
 	);
 };
 
