@@ -265,3 +265,14 @@
 	border-radius: 50px 50px 50px 50px;
 	object-fit: cover;
 }
+
+@media only screen and (min-width: 1024px) {
+	.arch-creative-img-square {
+		min-height: 345px;
+		min-width: 345px;
+		height: 345px;
+		width: 345px;
+		border-radius: 50px 50px 50px 50px;
+		object-fit: cover;
+	}
+}

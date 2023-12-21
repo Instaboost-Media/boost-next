@@ -48,8 +48,8 @@ const Footer = () => {
 						</div>
 					</div>
 					<p className={`font-normal text-center ${montserrat.className}`}>
-						Copyright © 2023 Uppercase. All Rights Reserved. Designed by
-						Uppercase.
+						Copyright © 2023 InstaBoost Media. All Rights Reserved. Designed by
+						InstaBoost Media.
 					</p>
 				</div>
 				<div className="grow flex flex-col justify-center items-center gap-10">
@@ -69,8 +69,8 @@ const Footer = () => {
 			</div>
 			<div className="flex justify-center mt-16 px-10 lg:hidden">
 				<p className={`font-normal text-center ${montserrat.className}`}>
-					Copyright © 2023 Uppercase. All Rights Reserved. Designed by
-					Uppercase.
+					Copyright © 2023 InstaBoost Media. All Rights Reserved. Designed by
+					InstaBoost Media.
 				</p>
 			</div>
 		</div>

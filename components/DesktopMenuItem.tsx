@@ -1,4 +1,3 @@
-"use client";
 import React, { FC, ReactNode } from "react";
 import { montserrat } from "../app/fonts";
 import Link from "next/link";

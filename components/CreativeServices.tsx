@@ -19,9 +19,9 @@ const CreativeServices = () => {
 			</div>
 			<div>
 				<Service />
+				<Service flipped={true} />
 				<Service />
-				<Service />
-				<Service />
+				<Service flipped={true} />
 			</div>
 		</div>
 	);
