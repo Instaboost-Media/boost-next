@@ -255,3 +255,13 @@
 		transform: rotate(20deg);
 	}
 }
+
+/* ----------------- Creative Services ----------------- */
+.arch-creative-img-square {
+	min-height: 300px;
+	min-width: 300px;
+	height: 300px;
+	width: 300px;
+	border-radius: 50px 50px 50px 50px;
+	object-fit: cover;
+}

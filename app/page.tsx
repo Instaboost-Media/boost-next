@@ -9,6 +9,8 @@ import CaseStudies from "@/components/CaseStudies";
 import BuildYourBundle from "@/components/BuildYourBundle";
 import Industries from "@/components/Industries";
 import Platforms from "@/components/Platforms";
+import CreativeServices from "@/components/CreativeServices";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 	return (
@@ -26,6 +28,8 @@ export default function Home() {
 			<BuildYourBundle />
 			<Industries />
 			<Platforms />
+			<CreativeServices />
+			<Footer />
 		</div>
 	);
 }
