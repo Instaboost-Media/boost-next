@@ -191,3 +191,67 @@
 	background-image: var(--homepage-gradient);
 	background-size: 100%;
 }
+
+/* ----------------- Industries ----------------- */
+.industries-container {
+	background-image: var(--homepage-gradient-sec);
+	background-size: 400%;
+}
+
+.arch-img-square {
+	min-height: 225px;
+	min-width: 225px;
+	height: 225px;
+	width: 225px;
+	border-radius: 50px 50px 50px 50px;
+	object-fit: cover;
+}
+
+.arch-img-upsidedown {
+	min-height: 240px;
+	min-width: 225px;
+	height: 240px;
+	width: 225px;
+	border-radius: 100%/0 0 180px 180px;
+	object-fit: cover;
+}
+
+.arch-img-tilt {
+	min-height: 255px;
+	min-width: 200px;
+	height: 255px;
+	width: 200px;
+	border-radius: 100%/180px 180px 180px 180px;
+	object-fit: cover;
+	transform: rotate(20deg);
+}
+
+@media only screen and (min-width: 1280px) {
+	.arch-img-square {
+		min-height: 405px;
+		min-width: 380px;
+		height: 405px;
+		width: 380px;
+		border-radius: 50px 50px 50px 50px;
+		object-fit: cover;
+	}
+
+	.arch-img-upsidedown {
+		min-height: 405px;
+		min-width: 380px;
+		height: 405px;
+		width: 380px;
+		border-radius: 100%/0 0 350px 350px;
+		object-fit: cover;
+	}
+
+	.arch-img-tilt {
+		min-height: 450px;
+		min-width: 360px;
+		height: 450px;
+		width: 360px;
+		border-radius: 100%/350px 350px 350px 350px;
+		object-fit: cover;
+		transform: rotate(20deg);
+	}
+}

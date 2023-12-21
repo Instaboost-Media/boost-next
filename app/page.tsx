@@ -5,9 +5,9 @@ import Scroller from "@/components/Scroller";
 import React from "react";
 import WhyBoost from "@/components/WhyBoost";
 import Certifications from "@/components/Certifications";
-import BarTitle from "@/components/BarTitle";
 import CaseStudies from "@/components/CaseStudies";
 import BuildYourBundle from "@/components/BuildYourBundle";
+import Industries from "@/components/Industries";
 
 export default function Home() {
 	return (
@@ -23,6 +23,7 @@ export default function Home() {
 			</div>
 			<CaseStudies />
 			<BuildYourBundle />
+			<Industries />
 		</div>
 	);
 }
