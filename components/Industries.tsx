@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Industries = () => {
 	return (
-		<div className="industries-container">
+		<div className="industries-container text-boost-black-1">
 			<BarTitle>Industries</BarTitle>
 			<div className="flex justify-center flex-col lg:flex-row gap-20 py-20 xl:gap-48">
 				<div className="flex justify-end flex-col gap-20 lg:flex-col-reverse">
