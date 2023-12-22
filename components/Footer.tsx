@@ -33,9 +33,15 @@ const Footer = () => {
 						className="w-24"
 					/>
 					<div className="flex flex-col gap-5 items-center">
-						<FooterMenuItem href="/example">Home</FooterMenuItem>
-						<FooterMenuItem href="/example">About</FooterMenuItem>
-						<FooterMenuItem href="/example">Creative</FooterMenuItem>
+						<FooterMenuItem idOfElement={"certifications-section"}>
+							Certifications
+						</FooterMenuItem>
+						<FooterMenuItem idOfElement={"why-boost-section"}>
+							Why Boost
+						</FooterMenuItem>
+						<FooterMenuItem idOfElement={"case-studies-section"}>
+							Case Studies
+						</FooterMenuItem>
 					</div>
 				</div>
 				<div className="grow hidden lg:flex flex-col justify-between max-w-[800px]">
@@ -61,9 +67,18 @@ const Footer = () => {
 						className="w-24"
 					/>
 					<div className="flex flex-col gap-5 items-center">
-						<FooterMenuItem href="/example">Case Studies</FooterMenuItem>
-						<FooterMenuItem href="/example">Services</FooterMenuItem>
-						<FooterMenuItem href="/example">Tech</FooterMenuItem>
+						<FooterMenuItem idOfElement={"bundles-section"}>
+							Bundles
+						</FooterMenuItem>
+						<FooterMenuItem idOfElement={"industries-section"}>
+							Industries
+						</FooterMenuItem>
+						<FooterMenuItem idOfElement={"platform-section"}>
+							Platforms
+						</FooterMenuItem>
+						<FooterMenuItem idOfElement={"services-section"}>
+							Services
+						</FooterMenuItem>
 					</div>
 				</div>
 			</div>
