@@ -8,7 +8,7 @@ const WhyBoost = () => {
 	return (
 		<div className="mt-36 ">
 			<Title>Why InstaBoost?</Title>
-			<div className="flex flex-col justify-center items-center gap-6 mt-20 lg:gap-28 lg:flex-row-reverse">
+			<div className="flex flex-col justify-center items-center gap-10 mt-24 lg:gap-28 lg:flex-row-reverse">
 				<Image
 					src="/placeholder.webp"
 					width={500}
@@ -16,7 +16,7 @@ const WhyBoost = () => {
 					alt="instaboost logo"
 					className="arch-img border-[2px] border-boost-black-1"
 				/>
-				<div className="flex flex-col justify-center gap-6">
+				<div className="flex flex-col justify-center gap-10">
 					<SubTitle styles={"lg:text-left"}>Lorem ipsum</SubTitle>
 					<p
 						className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[600px] lg:text-left ${montserrat.className} `}>
@@ -26,7 +26,7 @@ const WhyBoost = () => {
 					</p>
 				</div>
 			</div>
-			<div className="flex flex-col justify-center items-center gap-6 mt-20">
+			<div className="flex flex-col justify-center items-center gap-10 mt-20">
 				<SubTitle>Our Track Record</SubTitle>
 				<p
 					className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[750px] ${montserrat.className} `}>
@@ -35,7 +35,7 @@ const WhyBoost = () => {
 					pariatur! Nihil earum sapiente vel.
 				</p>
 			</div>
-			<div className="flex flex-col justify-center items-center gap-6 mt-20 ">
+			<div className="flex flex-col justify-center items-center gap-10 mt-20 ">
 				<SubTitle>Our Software</SubTitle>
 				<p
 					className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[750px] ${montserrat.className} `}>
@@ -44,7 +44,7 @@ const WhyBoost = () => {
 					pariatur! Nihil earum sapiente vel.
 				</p>
 			</div>
-			<div className="flex flex-col justify-center items-center gap-6 mt-20">
+			<div className="flex flex-col justify-center items-center gap-10 mt-20">
 				<SubTitle>Our Creative</SubTitle>
 				<p
 					className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[750px] ${montserrat.className} `}>

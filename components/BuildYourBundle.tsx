@@ -5,7 +5,7 @@ import { montserrat } from "../app/fonts";
 
 const BuildYourBundle = () => {
 	return (
-		<div className="bundles-container py-20 px-4">
+		<div className="bundles-container py-20 px-10 lg:py-24">
 			<div className="flex flex-col items-center justify-center gap-10">
 				<Title>Build Your Bundle</Title>
 				<p

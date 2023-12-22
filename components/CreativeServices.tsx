@@ -5,11 +5,11 @@ import Service from "./Service";
 
 const CreativeServices = () => {
 	return (
-		<div className="bg-boost-tan-1 border-y-[2px] border-boost-black-2 py-20 px-10">
+		<div className="bg-boost-tan-1 border-y-[2px] border-boost-black-2 py-20 px-10 lg:py-24">
 			<div>
 				<Title>Creative Services</Title>
 				<p
-					className={`mx-auto text-center font-normal mt-16 max-w-3xl ${montserrat.className}`}>
+					className={`mx-auto text-center font-normal mt-10 max-w-3xl ${montserrat.className}`}>
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem error ab
 					a eius quis sequi porro? <br></br>
 					<span className="font-bold">
