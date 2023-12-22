@@ -23,7 +23,11 @@ const HamburgerMenu = () => {
 					className="w-5"
 				/>
 			</button>
-			<MobileMenu menuOpen={menuOpen} handleClick={handleClick} />
+			<MobileMenu
+				menuOpen={menuOpen}
+				handleClick={handleClick}
+				handleClick={handleClick}
+			/>
 		</>
 	);
 };

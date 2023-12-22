@@ -5,9 +5,19 @@ import { montserrat } from "../app/fonts";
 type MobileMenuItemProps = {
 	idOfElement: string;
 	children: ReactNode;
+	closeMenu: () => void;
 };
 
-const MobileMenuItem: FC<MobileMenuItemProps> = ({ children, idOfElement }) => {
+const MobileMenuItem: FC<MobileMenuItemProps> = ({
+	children,
+	idOfElement,
+	closeMenu,
+}) => {
+	const handleClick = () => {
+		closeMenu();
+		scrollToElement();
+	};
+
 	// Function to handle the scroll when the button is clicked
 	const scrollToElement = () => {
 		// Get the element by its ID
@@ -30,7 +40,7 @@ const MobileMenuItem: FC<MobileMenuItemProps> = ({ children, idOfElement }) => {
 	return (
 		<button
 			type="button"
-			onClick={scrollToElement}
+			onClick={handleClick}
 			className={`w-full p-6 pl-0 text-lg font-normal text-left ${montserrat.className}`}>
 			{children}
 		</button>

@@ -30,25 +30,39 @@ const MovileMenu: FC<MobileMenuProps> = ({ menuOpen, handleClick }) => {
 				</div>
 				<div className="">
 					<ul className="px-8 flex flex-col">
-						<MobileMenuItem idOfElement={"certifications-section"}>
+						<MobileMenuItem
+							idOfElement={"certifications-section"}
+							closeMenu={handleClick}>
 							Certifications
 						</MobileMenuItem>
-						<MobileMenuItem idOfElement={"why-boost-section"}>
+						<MobileMenuItem
+							idOfElement={"why-boost-section"}
+							closeMenu={handleClick}>
 							Why Boost
 						</MobileMenuItem>
-						<MobileMenuItem idOfElement={"case-studies-section"}>
+						<MobileMenuItem
+							idOfElement={"case-studies-section"}
+							closeMenu={handleClick}>
 							Case Studies
 						</MobileMenuItem>
-						<MobileMenuItem idOfElement={"bundles-section"}>
+						<MobileMenuItem
+							idOfElement={"bundles-section"}
+							closeMenu={handleClick}>
 							Bundles
 						</MobileMenuItem>
-						<MobileMenuItem idOfElement={"industries-section"}>
+						<MobileMenuItem
+							idOfElement={"industries-section"}
+							closeMenu={handleClick}>
 							Industries
 						</MobileMenuItem>
-						<MobileMenuItem idOfElement={"platform-section"}>
+						<MobileMenuItem
+							idOfElement={"platform-section"}
+							closeMenu={handleClick}>
 							Platforms
 						</MobileMenuItem>
-						<MobileMenuItem idOfElement={"services-section"}>
+						<MobileMenuItem
+							idOfElement={"services-section"}
+							closeMenu={handleClick}>
 							Services
 						</MobileMenuItem>
 					</ul>
