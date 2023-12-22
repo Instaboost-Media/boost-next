@@ -5,7 +5,7 @@ import { montserrat } from "../app/fonts";
 
 const WhyBoostPt3 = () => {
 	return (
-		<div className="grid-container max-w-[1100px] mx-auto mt-20 lg:mt-40">
+		<div className="grid-container max-w-[1100px] mx-auto mt-20 lg:mt-36">
 			<div className="mouth flex justify-center">
 				<div className="lg:ml-auto w-[280px] lg:w-[450px] lg:h-[450px] rotate-12">
 					<Image

@@ -5,7 +5,7 @@ import { montserrat } from "../app/fonts";
 
 const WhyBoostPt1 = () => {
 	return (
-		<div className="flex flex-col justify-center items-center gap-10 mt-24 lg:gap-28 lg:flex-row-reverse">
+		<div className="flex flex-col justify-center items-center gap-10 mt-20 lg:gap-28 lg:flex-row-reverse">
 			<Image
 				src="/placeholder.webp"
 				width={500}

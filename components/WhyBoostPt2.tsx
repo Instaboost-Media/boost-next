@@ -8,12 +8,11 @@ import useIsInWindow from "@/hooks/useInWindow";
 const WhyBoostPt2 = () => {
 	const elementRef = useRef<HTMLDivElement>(null);
 	const isInWindow = useIsInWindow(elementRef);
-	console.log(isInWindow);
 
 	return (
 		<div
 			ref={elementRef}
-			className="flex flex-col justify-center items-center gap-10 mt-20 lg:mt-40">
+			className="flex flex-col justify-center items-center gap-10 mt-20 lg:mt-36">
 			<SubTitle>Our Track Record</SubTitle>
 			<p
 				className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[750px] ${montserrat.className} `}>
