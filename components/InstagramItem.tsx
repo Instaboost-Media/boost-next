@@ -7,7 +7,11 @@ type InstagramItemProps = {
 
 const InstagramItem: FC<InstagramItemProps> = ({ imgSrc }) => {
 	return (
-		<div className="border-[1px] border-boost-black-2 relative">
+		<a
+			href="https://instaboostinc.com/"
+			target="_blank"
+			type="button"
+			className="border-[1px] border-boost-black-2 relative">
 			<div className="bg-black absolute w-full h-full bg-opacity-75 opacity-0 hover:opacity-100 transition-all flex justify-center items-center cursor-pointer">
 				<Image
 					src="instagram-white.svg"
@@ -24,7 +28,7 @@ const InstagramItem: FC<InstagramItemProps> = ({ imgSrc }) => {
 				alt="instaboost logo"
 				className="object-cover !h-full"
 			/>
-		</div>
+		</a>
 	);
 };
 
