@@ -4,7 +4,9 @@ import Image from "next/image";
 
 const Platforms = () => {
 	return (
-		<div className="industries-container text-boost-black-1">
+		<div
+			id="platform-section"
+			className="industries-container text-boost-black-1">
 			<BarTitle>Platforms</BarTitle>
 			<div className="flex justify-center flex-wrap p-20 gap-16 lg:py-24 max-w-[1000px] mx-auto">
 				<Image

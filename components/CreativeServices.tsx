@@ -5,7 +5,9 @@ import Service from "./Service";
 
 const CreativeServices = () => {
 	return (
-		<div className="bg-boost-tan-1 border-y-[2px] border-boost-black-2 py-20 px-10 lg:py-24">
+		<div
+			id="services-section"
+			className="bg-boost-tan-1 border-y-[2px] border-boost-black-2 py-20 px-10 lg:py-24">
 			<div>
 				<Title>Creative Services</Title>
 				<p

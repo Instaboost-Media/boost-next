@@ -4,7 +4,9 @@ import Image from "next/image";
 
 const Industries = () => {
 	return (
-		<div className="industries-container text-boost-black-1">
+		<div
+			id="industries-section"
+			className="industries-container text-boost-black-1">
 			<BarTitle>Industries</BarTitle>
 			<div className="flex justify-center flex-col px-10 lg:flex-row gap-20 py-20 lg:py-24 xl:gap-48 text-center">
 				<div className="flex justify-end flex-col gap-20 lg:flex-col-reverse">

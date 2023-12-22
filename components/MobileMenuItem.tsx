@@ -1,20 +1,39 @@
 "use client";
-import React, { FC, ReactNode } from "react";
+import React, { FC, ReactNode, useRef } from "react";
 import { montserrat } from "../app/fonts";
-import Link from "next/link";
 
 type MobileMenuItemProps = {
-	href: string;
+	idOfElement: string;
 	children: ReactNode;
 };
 
-const MobileMenuItem: FC<MobileMenuItemProps> = ({ children, href }) => {
+const MobileMenuItem: FC<MobileMenuItemProps> = ({ children, idOfElement }) => {
+	// Function to handle the scroll when the button is clicked
+	const scrollToElement = () => {
+		// Get the element by its ID
+		const element = document.getElementById(idOfElement);
+
+		// Check if the element is not null before attempting to scroll
+		if (element) {
+			const offset = -150; // Set the desired offset value
+			const elementPosition =
+				element.getBoundingClientRect().top + window.scrollY;
+			const scrollTo = elementPosition + offset;
+
+			window.scrollTo({
+				top: scrollTo,
+				behavior: "smooth",
+			});
+		}
+	};
+
 	return (
-		<Link
-			className={`w-full p-6 pl-0 text-lg font-normal ${montserrat.className} `}
-			href={href}>
+		<button
+			type="button"
+			onClick={scrollToElement}
+			className={`w-full p-6 pl-0 text-lg font-normal text-left ${montserrat.className}`}>
 			{children}
-		</Link>
+		</button>
 	);
 };
 

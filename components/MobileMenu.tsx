@@ -30,13 +30,27 @@ const MovileMenu: FC<MobileMenuProps> = ({ menuOpen, handleClick }) => {
 				</div>
 				<div className="">
 					<ul className="px-8 flex flex-col">
-						<MobileMenuItem href={"/example"}>Home</MobileMenuItem>
-						<MobileMenuItem href={"/example"}>About</MobileMenuItem>
-						<MobileMenuItem href={"/example"}>Creative</MobileMenuItem>
-						<MobileMenuItem href={"/example"}>Case Studies</MobileMenuItem>
-						<MobileMenuItem href={"/example"}>Services</MobileMenuItem>
-						<MobileMenuItem href={"/example"}>Blog</MobileMenuItem>
-						<MobileMenuItem href={"/example"}>Tech</MobileMenuItem>
+						<MobileMenuItem idOfElement={"certifications-section"}>
+							Certifications
+						</MobileMenuItem>
+						<MobileMenuItem idOfElement={"why-boost-section"}>
+							Why Boost
+						</MobileMenuItem>
+						<MobileMenuItem idOfElement={"case-studies-section"}>
+							Case Studies
+						</MobileMenuItem>
+						<MobileMenuItem idOfElement={"bundles-section"}>
+							Bundles
+						</MobileMenuItem>
+						<MobileMenuItem idOfElement={"industries-section"}>
+							Industries
+						</MobileMenuItem>
+						<MobileMenuItem idOfElement={"platform-section"}>
+							Platforms
+						</MobileMenuItem>
+						<MobileMenuItem idOfElement={"services-section"}>
+							Services
+						</MobileMenuItem>
 					</ul>
 					<div className="p-8">
 						<InstaButton href="/example">Contact Us</InstaButton>

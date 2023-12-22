@@ -14,7 +14,9 @@ import "swiper/css/scrollbar";
 
 const CaseStudies = () => {
 	return (
-		<div className="bg-boost-tan-1 pt-16 pb-20 px-10 border-y-[2px] border-boost-black-2 ">
+		<div
+			id="case-studies-section"
+			className="bg-boost-tan-1 pt-16 pb-20 px-10 border-y-[2px] border-boost-black-2 ">
 			<Title>Case Studies</Title>
 			<div className="max-w-[400px] mt-16 mx-auto md:hidden">
 				<Swiper
