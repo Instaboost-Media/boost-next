@@ -6,7 +6,7 @@ import InstaButton from "./InstaButton";
 
 const Navbar = () => {
 	return (
-		<div className="bg-boost-tan-1 flex items-center p-7 border-y-[2px] border-boost-black-2 sticky top-0 z-10">
+		<div className="bg-boost-tan-1 flex items-center p-7 border-y-[2px] border-boost-black-2 sticky top-0 z-20">
 			<div className="lg:hidden">
 				<HamburgerMenu />
 				<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">

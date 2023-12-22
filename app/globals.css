@@ -186,6 +186,40 @@
 	background-size: 200%;
 }
 
+/* ----------------- Why Boost ----------------- */
+.mouth {
+	grid-area: mouth;
+}
+.ear {
+	grid-area: ear;
+}
+.software {
+	grid-area: software;
+}
+.creative {
+	grid-area: creative;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-areas:
+		"mouth"
+		"ear"
+		"software"
+		"creative";
+}
+
+@media only screen and (min-width: 1024px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas:
+			"software mouth"
+			"ear mouth"
+			"ear creative";
+	}
+}
+
 /* ----------------- Bundles ----------------- */
 .bundles-container {
 	background-image: var(--homepage-gradient);

@@ -13,7 +13,7 @@ type MobileMenuProps = {
 const MovileMenu: FC<MobileMenuProps> = ({ menuOpen, handleClick }) => {
 	return (
 		<div
-			className={`w-[310px] h-full bg-boost-tan-1 fixed left-[-310px] top-0 transition-all duration-300 border-[2px] border-boost-black-2 ${
+			className={`w-[310px] z-30 h-full bg-boost-tan-1 fixed left-[-310px] top-0 transition-all duration-300 border-[2px] border-boost-black-2 ${
 				menuOpen ? "!left-0" : ""
 			}`}>
 			<div className="flex flex-col h-full overflow-y-auto">

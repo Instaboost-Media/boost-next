@@ -19,7 +19,7 @@ export default function Home() {
 			<Banner />
 			<Scroller />
 			<div className="cetifications-container">
-				<div className="px-10 pt-20 lg:py-24 bg-red-200">
+				<div className="px-10 py-20 lg:pt-28 lg:pb-36 bg-red-200">
 					<Certifications />
 					<WhyBoost />
 				</div>
