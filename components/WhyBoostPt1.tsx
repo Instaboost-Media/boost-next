@@ -7,7 +7,7 @@ const WhyBoostPt1 = () => {
 	return (
 		<div className="flex flex-col justify-center items-center gap-10 mt-20 lg:gap-28 lg:flex-row-reverse">
 			<Image
-				src="/placeholder.webp"
+				src="/placeholder.svg"
 				width={500}
 				height={500}
 				alt="instaboost logo"

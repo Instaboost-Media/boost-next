@@ -5,7 +5,7 @@ const BoxVideo = () => {
 	return (
 		<div className="h-[360px] rounded-[43px] w-[260px] border-[2px] border-boost-black-1 overflow-hidden">
 			<Image
-				src="/placeholder.webp"
+				src="/placeholder.svg"
 				width={500}
 				height={500}
 				alt="instaboost logo"

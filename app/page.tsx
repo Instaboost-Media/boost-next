@@ -10,6 +10,7 @@ import BuildYourBundle from "@/components/BuildYourBundle";
 import Industries from "@/components/Industries";
 import Platforms from "@/components/Platforms";
 import CreativeServices from "@/components/CreativeServices";
+import InstagramFeed from "@/components/InstagramFeed";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
 			<Industries />
 			<Platforms />
 			<CreativeServices />
+			<InstagramFeed />
 			<Footer />
 		</div>
 	);

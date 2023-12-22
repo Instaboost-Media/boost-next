@@ -10,7 +10,7 @@ const Industries = () => {
 				<div className="flex justify-end flex-col gap-20 lg:flex-col-reverse">
 					<div className="flex justify-center flex-col items-center gap-20 lg:flex-col-reverse">
 						<Image
-							src="/placeholder.webp"
+							src="/placeholder.svg"
 							width={500}
 							height={500}
 							alt="instaboost logo"
@@ -20,7 +20,7 @@ const Industries = () => {
 					</div>
 					<div className="flex justify-center flex-col items-center gap-20 lg:flex-col-reverse">
 						<Image
-							src="/placeholder.webp"
+							src="/placeholder.svg"
 							width={500}
 							height={500}
 							alt="instaboost logo"
@@ -32,7 +32,7 @@ const Industries = () => {
 				<div className="flex justify-center flex-col gap-20 lg:gap-28 lg:flex-col-reverse xl:gap-24">
 					<div className="flex justify-center flex-col items-center gap-20 lg:gap-16 lg:flex-col-reverse">
 						<Image
-							src="/placeholder.webp"
+							src="/placeholder.svg"
 							width={500}
 							height={500}
 							alt="instaboost logo"
@@ -42,7 +42,7 @@ const Industries = () => {
 					</div>
 					<div className="flex justify-center flex-col items-center gap-20 lg:gap-16 lg:flex-col-reverse">
 						<Image
-							src="/placeholder.webp"
+							src="/placeholder.svg"
 							width={500}
 							height={500}
 							alt="instaboost logo"

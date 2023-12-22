@@ -15,7 +15,7 @@ const Service: FC<ServiceProps> = ({ flipped = false }) => {
 				flipped ? "lg:!flex-row" : ""
 			}`}>
 			<Image
-				src="/placeholder.webp"
+				src="/placeholder.svg"
 				width={500}
 				height={500}
 				alt="instaboost logo"
