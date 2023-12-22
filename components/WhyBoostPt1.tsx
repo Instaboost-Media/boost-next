@@ -17,9 +17,11 @@ const WhyBoostPt1 = () => {
 				<SubTitle styles={"lg:text-left"}>Lorem ipsum</SubTitle>
 				<p
 					className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[600px] lg:text-left ${montserrat.className} `}>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-					accusantium maxime quas, voluptates molestias possimus ab magnam
-					pariatur! Nihil earum sapiente vel.
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta modi
+					illo in quidem reiciendis non repellat facere, inventore aliquid vel,
+					quis laboriosam velit quia repudiandae, sint asperiores? Dolor saepe,
+					id voluptates sequi laudantium provident excepturi eaque, quam fugit,
+					numquam nam.
 				</p>
 			</div>
 		</div>

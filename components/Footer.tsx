@@ -48,9 +48,18 @@ const Footer = () => {
 					<div className="flex flex-col items-center gap-6">
 						<p className={`font-normal ${montserrat.className}`}>Follow Us</p>
 						<div className="flex gap-6">
-							<SocialButton href="/example" imgSrc="/instagram.svg" />
-							<SocialButton href="/example" imgSrc="/facebook.svg" />
-							<SocialButton href="/example" imgSrc="/linkedin-in.svg" />
+							<SocialButton
+								href="https://instaboostinc.com/"
+								imgSrc="/instagram.svg"
+							/>
+							<SocialButton
+								href="https://instaboostinc.com/"
+								imgSrc="/facebook.svg"
+							/>
+							<SocialButton
+								href="https://instaboostinc.com/"
+								imgSrc="/linkedin-in.svg"
+							/>
 						</div>
 					</div>
 					<p className={`font-normal text-center ${montserrat.className}`}>

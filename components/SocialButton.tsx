@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import Link from "next/link";
 import Image from "next/image";
 
 type SocialButtonProps = {
@@ -9,7 +8,7 @@ type SocialButtonProps = {
 
 const SocialButton: FC<SocialButtonProps> = ({ href, imgSrc }) => {
 	return (
-		<Link className="flex items-center justify-center" href={href}>
+		<a target="_blank" className="flex items-center justify-center" href={href}>
 			<Image
 				src={imgSrc}
 				width={0}
@@ -17,7 +16,7 @@ const SocialButton: FC<SocialButtonProps> = ({ href, imgSrc }) => {
 				alt="instaboost logo"
 				className="w-8"
 			/>
-		</Link>
+		</a>
 	);
 };
 

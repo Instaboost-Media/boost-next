@@ -19,9 +19,9 @@ const BuildYourBundle = () => {
 			</div>
 
 			<div className="flex justify-center flex-wrap items-center gap-8 mt-10">
-				<Bundle />
-				<Bundle />
-				<Bundle />
+				<Bundle title="Bronze" price={75} icon={"/chart-solid-1.svg"} />
+				<Bundle title="Gold" price={150} icon={"/chart-solid-3.svg"} />
+				<Bundle title="Silver" price={100} icon={"/chart-solid-2.svg"} />
 			</div>
 		</div>
 	);
