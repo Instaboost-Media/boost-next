@@ -1,9 +1,10 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, FC } from "react";
 import Image from "next/image";
 import MobileMenu from "./MobileMenu";
+import { HamburgerMenuProps } from "@/models/navbar";
 
-const HamburgerMenu = () => {
+const HamburgerMenu: FC<HamburgerMenuProps> = ({ navItems }) => {
 	const [menuOpen, setMenuOpen] = useState(false);
 
 	const handleClick = () => {
@@ -23,7 +24,11 @@ const HamburgerMenu = () => {
 					className="w-5"
 				/>
 			</button>
-			<MobileMenu menuOpen={menuOpen} handleClick={handleClick} />
+			<MobileMenu
+				menuOpen={menuOpen}
+				handleClick={handleClick}
+				navItems={navItems}
+			/>
 		</>
 	);
 };

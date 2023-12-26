@@ -1,16 +1,15 @@
-"use client";
 import React, { FC } from "react";
 import Image from "next/image";
 import MobileMenuItem from "./MobileMenuItem";
 import InstaButton from "./InstaButton";
 import SocialButton from "./SocialButton";
+import { MobileMenuProps } from "@/models/navbar";
 
-type MobileMenuProps = {
-	menuOpen: boolean;
-	handleClick: () => void;
-};
-
-const MovileMenu: FC<MobileMenuProps> = ({ menuOpen, handleClick }) => {
+const MovileMenu: FC<MobileMenuProps> = ({
+	menuOpen,
+	handleClick,
+	navItems,
+}) => {
 	return (
 		<div
 			className={`w-[310px] z-30 h-full bg-boost-tan-1 fixed left-[-310px] top-0 transition-all duration-300 border-[2px] border-boost-black-2 ${
@@ -30,41 +29,14 @@ const MovileMenu: FC<MobileMenuProps> = ({ menuOpen, handleClick }) => {
 				</div>
 				<div className="">
 					<ul className="px-8 flex flex-col">
-						<MobileMenuItem
-							idOfElement={"certifications-section"}
-							closeMenu={handleClick}>
-							Certifications
-						</MobileMenuItem>
-						<MobileMenuItem
-							idOfElement={"why-boost-section"}
-							closeMenu={handleClick}>
-							Why Boost
-						</MobileMenuItem>
-						<MobileMenuItem
-							idOfElement={"case-studies-section"}
-							closeMenu={handleClick}>
-							Case Studies
-						</MobileMenuItem>
-						<MobileMenuItem
-							idOfElement={"bundles-section"}
-							closeMenu={handleClick}>
-							Bundles
-						</MobileMenuItem>
-						<MobileMenuItem
-							idOfElement={"industries-section"}
-							closeMenu={handleClick}>
-							Industries
-						</MobileMenuItem>
-						<MobileMenuItem
-							idOfElement={"platform-section"}
-							closeMenu={handleClick}>
-							Platforms
-						</MobileMenuItem>
-						<MobileMenuItem
-							idOfElement={"services-section"}
-							closeMenu={handleClick}>
-							Services
-						</MobileMenuItem>
+						{navItems.map(({ text, sectionId }, index) => (
+							<MobileMenuItem
+								key={index}
+								idOfElement={sectionId}
+								closeMenu={handleClick}>
+								{text}
+							</MobileMenuItem>
+						))}
 					</ul>
 					<div className="p-8">
 						<InstaButton href="/example">Contact Us</InstaButton>
