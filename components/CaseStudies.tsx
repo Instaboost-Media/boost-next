@@ -20,14 +20,11 @@ const CaseStudies = () => {
 			<Title>Case Studies</Title>
 			<div className="max-w-[400px] mt-16 mx-auto md:hidden">
 				<Swiper
-					// install Swiper modules
 					modules={[Navigation, Pagination, A11y]}
 					spaceBetween={1}
 					slidesPerView={1}
 					navigation
-					pagination={{ clickable: true }}
-					onSwiper={(swiper) => console.log(swiper)}
-					onSlideChange={() => console.log("slide change")}>
+					pagination={{ clickable: true }}>
 					<SwiperSlide className="!flex !justify-center">
 						<BoxVideo />
 					</SwiperSlide>
