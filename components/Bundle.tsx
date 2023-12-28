@@ -22,10 +22,10 @@ const Bundle: FC<BundleProps> = ({ title, price, icon }) => {
 					/>
 				</div>
 				<h3
-					className={`text-4xl leading-[36px] xs:text-[56px] xs:leading-[46px] text-boost-black-1 text-center mt-8 `}>
+					className={`text-4xl leading-[36px] xs:text-[56px] xs:leading-[46px] font-semibold text-boost-black-1 text-center mt-8 `}>
 					{title}
 				</h3>
-				<p className="text-5xl leading-[36px] text-boost-black-1 xs:text-6xl text-center">
+				<p className="text-4xl leading-[36px] text-boost-black-1 xs:text-5xl text-center">
 					${price} <span className="text-xl xs:text-2xl">/month</span>
 				</p>
 			</div>

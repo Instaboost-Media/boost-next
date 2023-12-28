@@ -18,7 +18,9 @@ const Industries = () => {
 							alt="instaboost logo"
 							className="arch-img-square border-[2px] border-boost-black-1"
 						/>
-						<h3 className="text-4xl xl:text-5xl">Food & Beverage</h3>
+						<h3 className="text-3xl xl:text-4xl font-semibold">
+							Food & Beverage
+						</h3>
 					</div>
 					<div className="flex justify-center flex-col items-center gap-20 lg:flex-col-reverse">
 						<Image
@@ -28,7 +30,9 @@ const Industries = () => {
 							alt="instaboost logo"
 							className="arch-img-upsidedown border-[2px] border-boost-black-1"
 						/>
-						<h3 className="text-4xl xl:text-5xl">Skincare & Beauty</h3>
+						<h3 className="text-3xl xl:text-4xl font-semibold">
+							Skincare & Beauty
+						</h3>
 					</div>
 				</div>
 				<div className="flex justify-center flex-col gap-20 lg:gap-28 lg:flex-col-reverse xl:gap-24">
@@ -40,7 +44,9 @@ const Industries = () => {
 							alt="instaboost logo"
 							className="arch-img-tilt border-[2px] border-boost-black-1"
 						/>
-						<h3 className="text-4xl xl:text-5xl">Fashion & Apparel</h3>
+						<h3 className="text-3xl xl:text-4xl font-semibold">
+							Fashion & Apparel
+						</h3>
 					</div>
 					<div className="flex justify-center flex-col items-center gap-20 lg:gap-16 lg:flex-col-reverse">
 						<Image
@@ -50,7 +56,9 @@ const Industries = () => {
 							alt="instaboost logo"
 							className="arch-img-square border-[2px] border-boost-black-1"
 						/>
-						<h3 className="text-4xl xl:text-5xl">Jewelry & Accessories</h3>
+						<h3 className="text-3xl xl:text-4xl font-semibold">
+							Jewelry & Accessories
+						</h3>
 					</div>
 				</div>
 			</div>
