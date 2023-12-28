@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { playfair } from "./fonts";
+import { nexa } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -13,7 +13,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en" className={playfair.className}>
+		<html lang="en" className={nexa.className}>
 			<body suppressHydrationWarning={true}>{children}</body>
 		</html>
 	);

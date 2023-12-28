@@ -1,6 +1,6 @@
 import React, { FC, ReactNode } from "react";
 import Image from "next/image";
-import { montserrat } from "../app/fonts";
+import { avenir } from "../app/fonts";
 
 type CheckItemProps = {
 	children: ReactNode;
@@ -18,7 +18,10 @@ const CheckItem: FC<CheckItemProps> = ({ children }) => {
 					className="w-4"
 				/>
 			</div>
-			<p className={` font-normal ${montserrat.className}`}>{children}</p>
+			<p
+				className={`font-normal text-lg text-boost-black-1 ${avenir.className}`}>
+				{children}
+			</p>
 		</li>
 	);
 };

@@ -17,6 +17,9 @@ const config: Config = {
 			"3xl": "1800px",
 		},
     extend: {
+      fontFamily: {
+        sans: ['var(--font-nexa)']
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

@@ -1,7 +1,7 @@
 import React from "react";
 import SubTitle from "./SubTitle";
 import Image from "next/image";
-import { montserrat } from "../app/fonts";
+import { avenir } from "../app/fonts";
 
 const WhyBoostPt3 = () => {
 	return (
@@ -37,7 +37,7 @@ const WhyBoostPt3 = () => {
 				<div className="flex flex-col justify-center items-center gap-10 lg:items-start ">
 					<SubTitle>Our Software</SubTitle>
 					<p
-						className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[750px] lg:text-left ${montserrat.className} `}>
+						className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[750px] lg:text-left ${avenir.className} `}>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
 						accusantium maxime quas, voluptates molestias possimus ab magnam
 						pariatur! Nihil earum sapiente vel.
@@ -48,7 +48,7 @@ const WhyBoostPt3 = () => {
 				<div className="flex flex-col justify-center items-center gap-10 lg:items-end">
 					<SubTitle>Our Creative</SubTitle>
 					<p
-						className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[750px] lg:text-right ${montserrat.className} `}>
+						className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[750px] lg:text-right ${avenir.className} `}>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
 						accusantium maxime quas, voluptates molestias possimus ab magnam
 						pariatur! Nihil earum sapiente vel.

@@ -1,6 +1,6 @@
 "use client";
 import React, { FC, ReactNode, useRef } from "react";
-import { montserrat } from "../app/fonts";
+import { avenir } from "../app/fonts";
 
 type MobileMenuItemProps = {
 	idOfElement: string;
@@ -41,7 +41,7 @@ const MobileMenuItem: FC<MobileMenuItemProps> = ({
 		<button
 			type="button"
 			onClick={handleClick}
-			className={`w-full p-6 pl-0 text-lg font-normal text-left ${montserrat.className}`}>
+			className={`w-full p-6 pl-0 text-lg font-normal text-left text-boost-black-1 ${avenir.className}`}>
 			{children}
 		</button>
 	);

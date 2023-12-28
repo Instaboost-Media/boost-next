@@ -2,7 +2,7 @@
 import React, { FC, ReactNode } from "react";
 import Image from "next/image";
 import SubTitle from "./SubTitle";
-import { montserrat } from "../app/fonts";
+import { avenir } from "../app/fonts";
 
 type ServiceProps = {
 	flipped?: boolean;
@@ -24,7 +24,7 @@ const Service: FC<ServiceProps> = ({ flipped = false }) => {
 			<div className="flex flex-col justify-center gap-10">
 				<SubTitle styles={"lg:text-left"}>Lorem ipsum</SubTitle>
 				<p
-					className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[650px] lg:text-left ${montserrat.className} `}>
+					className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[650px] lg:text-left ${avenir.className} `}>
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
 					harum, voluptas nesciunt dolore explicabo possimus sequi voluptatibus
 					qui provident veniam architecto dolor veritatis recusandae voluptate?

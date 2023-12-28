@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "./Title";
 import Bundle from "./Bundle";
-import { montserrat } from "../app/fonts";
+import { avenir } from "../app/fonts";
 
 const BuildYourBundle = () => {
 	return (
@@ -11,7 +11,7 @@ const BuildYourBundle = () => {
 			<div className="flex flex-col items-center justify-center gap-10">
 				<Title>Build Your Bundle</Title>
 				<p
-					className={`font-normal text-center max-w-[650px] ${montserrat.className}`}>
+					className={`font-normal text-center text-boost-black-1 max-w-[650px] text-lg ${avenir.className}`}>
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et accusamus
 					ea accusantium commodi, sit eaque nobis minus, quia dolorum temporibus
 					harum, ad porro deleniti amet!

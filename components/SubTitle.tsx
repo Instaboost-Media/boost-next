@@ -9,7 +9,7 @@ type SubTitleProps = {
 const SubTitle: FC<SubTitleProps> = ({ children, styles }) => {
 	return (
 		<h2
-			className={`text-3xl xs:text-4xl text-boost-black-1 text-center lg:text-5xl ${styles}`}>
+			className={`text-3xl font-semibold xs:text-4xl text-boost-black-1 text-center lg:text-4xl ${styles}`}>
 			{children}
 		</h2>
 	);

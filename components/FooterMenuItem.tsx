@@ -1,6 +1,6 @@
 "use client";
 import React, { FC, ReactNode } from "react";
-import { montserrat } from "../app/fonts";
+import { avenir } from "../app/fonts";
 import Link from "next/link";
 
 type FooterItemProps = {
@@ -32,7 +32,7 @@ const FooterItem: FC<FooterItemProps> = ({ children, idOfElement }) => {
 		<button
 			onClick={scrollToElement}
 			type="button"
-			className={`whitespace-nowrap font-normal ${montserrat.className}`}>
+			className={`whitespace-nowrap font-normal text-lg ${avenir.className}`}>
 			{children}
 		</button>
 	);

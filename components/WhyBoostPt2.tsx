@@ -2,7 +2,7 @@
 import React, { useRef } from "react";
 import NumberStat from "./NumberStat";
 import SubTitle from "./SubTitle";
-import { montserrat } from "../app/fonts";
+import { avenir } from "../app/fonts";
 import useIsInWindow from "@/hooks/useInWindow";
 
 const WhyBoostPt2 = () => {
@@ -15,7 +15,7 @@ const WhyBoostPt2 = () => {
 			className="flex flex-col justify-center items-center gap-10 mt-20 lg:mt-36">
 			<SubTitle>Our Track Record</SubTitle>
 			<p
-				className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[750px] ${montserrat.className} `}>
+				className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[750px] ${avenir.className} `}>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
 				accusantium maxime quas.
 			</p>

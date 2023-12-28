@@ -3,7 +3,7 @@ import Logo from "../components/Logo";
 import Image from "next/image";
 import SocialButton from "./SocialButton";
 import FooterMenuItem from "./FooterMenuItem";
-import { montserrat } from "../app/fonts";
+import { avenir } from "../app/fonts";
 
 const Footer = () => {
 	return (
@@ -15,7 +15,7 @@ const Footer = () => {
 			</div>
 			<div className="pt-20 lg:hidden">
 				<div className="flex flex-col items-center gap-6">
-					<p className={`font-normal ${montserrat.className}`}>Follow Us</p>
+					<p className={`font-normal ${avenir.className}`}>Follow Us</p>
 					<div className="flex gap-6">
 						<SocialButton href="/example" imgSrc="/instagram.svg" />
 						<SocialButton href="/example" imgSrc="/facebook.svg" />
@@ -46,7 +46,7 @@ const Footer = () => {
 				</div>
 				<div className="grow hidden lg:flex flex-col justify-between max-w-[800px]">
 					<div className="flex flex-col items-center gap-6">
-						<p className={`font-normal ${montserrat.className}`}>Follow Us</p>
+						<p className={`font-normal ${avenir.className}`}>Follow Us</p>
 						<div className="flex gap-6">
 							<SocialButton
 								href="https://instaboostinc.com/"
@@ -62,7 +62,7 @@ const Footer = () => {
 							/>
 						</div>
 					</div>
-					<p className={`font-normal text-center ${montserrat.className}`}>
+					<p className={`font-normal text-center ${avenir.className}`}>
 						Copyright © 2023 InstaBoost Media. All Rights Reserved. Designed by
 						InstaBoost Media.
 					</p>
@@ -92,7 +92,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className="flex justify-center mt-16 px-10 lg:hidden">
-				<p className={`font-normal text-center ${montserrat.className}`}>
+				<p className={`font-normal text-center ${avenir.className}`}>
 					Copyright © 2023 InstaBoost Media. All Rights Reserved. Designed by
 					InstaBoost Media.
 				</p>

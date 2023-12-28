@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Title from "./Title";
-import { montserrat } from "../app/fonts";
+import { avenir } from "../app/fonts";
 
 const Cetifications = () => {
 	return (
@@ -9,7 +9,7 @@ const Cetifications = () => {
 			<Title>Certifications</Title>
 			<div className=" flex flex-wrap justify-center items-center gap-24 mt-28 xl:gap-48">
 				<div
-					className={`text-boost-black-1 font-medium text-center flex flex-col justify-center items-center ${montserrat.className}`}>
+					className={`text-boost-black-1 font-medium text-center text-lg flex flex-col justify-center items-center ${avenir.className}`}>
 					<Image
 						src="/google.svg"
 						width={0}
@@ -23,7 +23,7 @@ const Cetifications = () => {
 					</p>
 				</div>
 				<div
-					className={`text-boost-black-1 font-medium text-center flex flex-col justify-center items-center ${montserrat.className}`}>
+					className={`text-boost-black-1 font-medium text-center text-lg flex flex-col justify-center items-center ${avenir.className}`}>
 					<Image
 						src="/clutch.svg"
 						width={0}
@@ -37,7 +37,7 @@ const Cetifications = () => {
 					</p>
 				</div>
 				<div
-					className={`text-boost-black-1 font-medium text-center flex flex-col justify-center items-center ${montserrat.className}`}>
+					className={`text-boost-black-1 font-medium text-center text-lg flex flex-col justify-center items-center ${avenir.className}`}>
 					<Image
 						src="/meta.svg"
 						width={0}
