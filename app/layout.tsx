@@ -5,14 +5,15 @@ import "./globals.css";
 export const metadata: Metadata = {
 	title: "Boost Brands",
 	description: "We’re a marketing agency offering bold solutions for brands ready to 10x their growth.",
+	metadataBase: new URL(`https://${process.env.VERCEL_URL}`),
 	openGraph: {
 		title: 'Boost Brands',
 		description: 'We’re a marketing agency offering bold solutions for brands ready to 10x their growth',
-		url: 'https://boost-brands.vercel.app',
+		url: '/',
 		siteName: 'Boost Brands',
 		images: [
 		  {
-			url: 'https://boost-brands.vercel.app/og.png', // Must be an absolute URL
+			url: '/og.png', // Must be an absolute URL
 			width: 600,
 			height: 210,
 			alt: 'Boost Brands',
