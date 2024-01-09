@@ -6,6 +6,18 @@ export const metadata: Metadata = {
 	title: "Boost Brands",
 	description: "We’re a marketing agency offering bold solutions for brands ready to 10x their growth.",
 	metadataBase: new URL(`https://${process.env.VERCEL_URL}`),
+	twitter:{
+		title: 'Boost Brands',
+		description: 'We’re a marketing agency offering bold solutions for brands ready to 10x their growth',
+		images: [
+		  {
+			url: '/og.png', // Must be an absolute URL
+			width: 600,
+			height: 210,
+			alt: 'Boost Brands',
+		  },
+		],
+	  },
 	openGraph: {
 		title: 'Boost Brands',
 		description: 'We’re a marketing agency offering bold solutions for brands ready to 10x their growth',

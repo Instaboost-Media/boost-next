@@ -6,9 +6,10 @@ type BundleProps = {
 	title: string;
 	price: number;
 	icon: string;
+	bullets: string[]
 };
 
-const Bundle: FC<BundleProps> = ({ title, price, icon }) => {
+const Bundle: FC<BundleProps> = ({ title, price, icon, bullets }) => {
 	return (
 		<div className="rounded-t-[180px] border-[2px] border-boost-black-1 max-w-[380px] mt-16">
 			<div className="rounded-t-[180px] bg-boost-tan-1 flex justify-center flex-col items-center p-10 gap-6 relative">
@@ -31,13 +32,9 @@ const Bundle: FC<BundleProps> = ({ title, price, icon }) => {
 			</div>
 			<div className="p-10 border-t-[2px] border-boost-black-1 bg-white">
 				<ul className="flex flex-col gap-4">
-					<CheckItem>Lorem ipsum dolor sit.</CheckItem>
-					<CheckItem>
-						Lorem, ipsum dolor sit amet consectetur adipisicing.
-					</CheckItem>
-					<CheckItem>Lorem ipsum dolor sit amet.</CheckItem>
-					<CheckItem>Lorem ipsum dolor sit amet consectetur.</CheckItem>
-					<CheckItem>Lorem ipsum dolor sit.</CheckItem>
+					{bullets.map((bullet) => 
+						<CheckItem>{bullet}</CheckItem>
+					)}
 				</ul>
 			</div>
 		</div>

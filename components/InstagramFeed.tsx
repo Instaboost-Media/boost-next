@@ -4,28 +4,28 @@ import InstagramItem from "./InstagramItem";
 const data = {
 	posts: [
 		{
-			img: "placeholder.svg",
+			img: "/post-1.jpg",
 		},
 		{
-			img: "placeholder.svg",
+			img: "/post-2.jpg",
 		},
 		{
-			img: "placeholder.svg",
+			img: "/post-3.jpg",
 		},
 		{
-			img: "placeholder.svg",
+			img: "/post-4.jpg",
 		},
 		{
-			img: "placeholder.svg",
+			img: "/post-5.jpg",
 		},
 		{
-			img: "placeholder.svg",
+			img: "/post-6.jpg",
 		},
 		{
-			img: "placeholder.svg",
+			img: "/post-7.jpg",
 		},
 		{
-			img: "placeholder.svg",
+			img: "/post-8.jpg",
 		},
 	],
 };

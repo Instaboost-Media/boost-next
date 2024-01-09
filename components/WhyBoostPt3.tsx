@@ -35,23 +35,19 @@ const WhyBoostPt3 = () => {
 			</div>
 			<div className="software mt-16 lg:mt-0">
 				<div className="flex flex-col justify-center items-center gap-10 lg:items-start ">
-					<SubTitle>Our Software</SubTitle>
+					<SubTitle>Proven Global Success</SubTitle>
 					<p
 						className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[750px] lg:text-left ${avenir.className} `}>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-						accusantium maxime quas, voluptates molestias possimus ab magnam
-						pariatur! Nihil earum sapiente vel.
+						Managing a $100 million+ yearly ad budget globally, we've empowered over 100 D2C companies to scale across the USA, Canada, Australia, New Zealand, and the UK.
 					</p>
 				</div>
 			</div>
 			<div className="creative mt-16 lg:mt-0">
 				<div className="flex flex-col justify-center items-center gap-10 lg:items-end">
-					<SubTitle>Our Creative</SubTitle>
+					<SubTitle>Simple & Flexible</SubTitle>
 					<p
 						className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[750px] lg:text-right ${avenir.className} `}>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-						accusantium maxime quas, voluptates molestias possimus ab magnam
-						pariatur! Nihil earum sapiente vel.
+						Offering straightforward terms and long-lasting agreements, we provide unique package options and project-based solutions. Let us boost your brand!
 					</p>
 				</div>
 			</div>
