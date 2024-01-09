@@ -1,7 +1,6 @@
 "use client";
 import React, { FC, ReactNode } from "react";
 import { avenir } from "../app/fonts";
-import Link from "next/link";
 
 type FooterItemProps = {
 	idOfElement: string;

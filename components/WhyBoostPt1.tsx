@@ -6,7 +6,6 @@ import getWhyBoostPt1 from "@/data-handlers/whyBoostPt1";
 
 const WhyBoostPt1 = async () => {
 	const { heading, description, imageLink } = await getWhyBoostPt1();
-	console.log("--->", heading, description, imageLink);
 
 	return (
 		<div className="flex flex-col justify-center items-center gap-10 mt-20 lg:gap-28 lg:flex-row-reverse">
