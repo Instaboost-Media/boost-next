@@ -8,7 +8,7 @@ type InstagramItemProps = {
 const InstagramItem: FC<InstagramItemProps> = ({ imgSrc }) => {
 	return (
 		<a
-			href="https://instaboostinc.com/"
+			href="https://www.instagram.com/instaboostmedia.inc/"
 			target="_blank"
 			type="button"
 			className="border-[1px] border-boost-black-2 relative">

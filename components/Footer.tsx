@@ -49,15 +49,15 @@ const Footer = () => {
 						<p className={`font-normal ${avenir.className}`}>Follow Us</p>
 						<div className="flex gap-6">
 							<SocialButton
-								href="https://instaboostinc.com/"
+								href="https://www.instagram.com/instaboostmedia.inc/"
 								imgSrc="/instagram.svg"
 							/>
 							<SocialButton
-								href="https://instaboostinc.com/"
-								imgSrc="/facebook.svg"
+								href="https://www.tiktok.com/@instaboostmedia"
+								imgSrc="/tiktok-logo.svg"
 							/>
 							<SocialButton
-								href="https://instaboostinc.com/"
+								href="https://www.linkedin.com/company/instaboost-media"
 								imgSrc="/linkedin-in.svg"
 							/>
 						</div>

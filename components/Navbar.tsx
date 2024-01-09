@@ -20,7 +20,7 @@ const Navbar = async () => {
 				<div className="flex justify-around items-center">
 					<Logo />
 					<DesktopMenu />
-					<InstaButton href="/example">Contact Us</InstaButton>
+					<InstaButton href="https://instaboostinc.com/contact-us/">Contact Us</InstaButton>
 				</div>
 			</div>
 		</div>

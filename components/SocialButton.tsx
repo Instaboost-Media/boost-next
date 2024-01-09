@@ -11,10 +11,10 @@ const SocialButton: FC<SocialButtonProps> = ({ href, imgSrc }) => {
 		<a target="_blank" className="flex items-center justify-center" href={href}>
 			<Image
 				src={imgSrc}
-				width={0}
-				height={0}
+				width={500}
+				height={500}
 				alt="instaboost logo"
-				className="w-8"
+				className="w-8 h-8"
 			/>
 		</a>
 	);

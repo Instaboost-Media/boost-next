@@ -39,14 +39,23 @@ const MovileMenu: FC<MobileMenuProps> = ({
 						))}
 					</ul>
 					<div className="p-8">
-						<InstaButton href="/example">Contact Us</InstaButton>
+						<InstaButton href="https://instaboostinc.com/contact-us">Contact Us</InstaButton>
 					</div>
 				</div>
 
 				<div className="p-8  mt-auto sticky bottom-0 border-t-[2px] border-boost-black-2 bg-boost-tan-1 flex justify-around">
-					<SocialButton href="/example" imgSrc="/instagram.svg" />
-					<SocialButton href="/example" imgSrc="/facebook.svg" />
-					<SocialButton href="/example" imgSrc="/linkedin-in.svg" />
+				<SocialButton
+								href="https://www.instagram.com/instaboostmedia.inc/"
+								imgSrc="/instagram.svg"
+							/>
+							<SocialButton
+								href="https://www.tiktok.com/@instaboostmedia"
+								imgSrc="/tiktok-logo.svg"
+							/>
+							<SocialButton
+								href="https://www.linkedin.com/company/instaboost-media"
+								imgSrc="/linkedin-in.svg"
+							/>
 				</div>
 			</div>
 		</div>
