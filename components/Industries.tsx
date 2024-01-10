@@ -13,7 +13,7 @@ const Industries = () => {
 					<div className="flex justify-center flex-col items-center gap-20 lg:flex-col-reverse">
 						<video
 							id="bannerVideo"
-							className="arch-img-tilt border-[2px] border-boost-black-1"
+							className="arch-img-square border-[2px] border-boost-black-1"
 							autoPlay
 							loop
 							muted
