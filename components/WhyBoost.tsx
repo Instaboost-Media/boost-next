@@ -8,7 +8,7 @@ import WhyBoostPt3 from "./WhyBoostPt3";
 const WhyBoost = () => {
 	return (
 		<div id="why-boost-section" className="mt-36">
-			<Title>Why InstaBoost?</Title>
+			<Title>Boost</Title>
 			<WhyBoostPt1 />
 			<WhyBoostPt2 />
 			<WhyBoostPt3 />

@@ -39,7 +39,7 @@ const MovileMenu: FC<MobileMenuProps> = ({
 						))}
 					</ul>
 					<div className="p-8">
-						<InstaButton href="https://instaboostinc.com/contact-us">Contact Us</InstaButton>
+						<InstaButton/>
 					</div>
 				</div>
 

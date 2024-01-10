@@ -11,20 +11,22 @@ const Industries = () => {
 			<div className="flex justify-center flex-col px-10 lg:flex-row gap-20 py-20 lg:py-24 xl:gap-48 text-center">
 				<div className="flex justify-end flex-col gap-20 lg:flex-col-reverse">
 					<div className="flex justify-center flex-col items-center gap-20 lg:flex-col-reverse">
-						<Image
-							src="/berverage.png"
-							width={500}
-							height={500}
-							alt="instaboost logo"
-							className="arch-img-square border-[2px] border-boost-black-1"
-						/>
+						<video
+							id="bannerVideo"
+							className="arch-img-tilt border-[2px] border-boost-black-1"
+							autoPlay
+							loop
+							muted
+							playsInline
+							src="http://boost.instaboostinc.com/wp-content/uploads/2024/01/drinks.mp4"
+							poster=""></video>
 						<h3 className="text-3xl xl:text-4xl font-semibold">
 							Food & Beverage
 						</h3>
 					</div>
 					<div className="flex justify-center flex-col items-center gap-20 lg:flex-col-reverse">
 						<Image
-							src="/skin-care.png"
+							src="http://boost.instaboostinc.com/wp-content/uploads/2024/01/skin-care.png"
 							width={500}
 							height={500}
 							alt="instaboost logo"
@@ -44,7 +46,7 @@ const Industries = () => {
 						loop
 						muted
 						playsInline
-						src="/health.mp4"
+						src="http://boost.instaboostinc.com/wp-content/uploads/2024/01/health.mp4"
 						poster=""></video>
 						{/* <Image
 							src="/health.mp4"
@@ -59,7 +61,7 @@ const Industries = () => {
 					</div>
 					<div className="flex justify-center flex-col items-center gap-20 lg:gap-16 lg:flex-col-reverse">
 						<Image
-							src="/jewelry.png"
+							src="http://boost.instaboostinc.com/wp-content/uploads/2024/01/jewelry.png"
 							width={500}
 							height={500}
 							alt="instaboost logo"
