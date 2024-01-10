@@ -38,7 +38,7 @@ const WhyBoostPt3 = () => {
 					<SubTitle>Proven Global Success</SubTitle>
 					<p
 						className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[750px] lg:text-left ${avenir.className} `}>
-						Managing a $100 million+ yearly ad budget globally, we've empowered over 100 D2C companies to scale across the USA, Canada, Australia, New Zealand, and the UK.
+						Managing a $100 million+ yearly ad budget globally, we&apos;ve empowered over 100 D2C companies to scale across the USA, Canada, Australia, New Zealand, and the UK.
 					</p>
 				</div>
 			</div>

@@ -53,7 +53,7 @@ const CreativeServices = () => {
 					className={`mx-auto text-center font-normal mt-10 max-w-3xl text-boost-black-1 text-lg ${avenir.className}`}>
 					<span className="font-bold">Elevate Your Brand with Boost Brands Creative Services.</span> <br></br>
 					
-					At Boost Brands, we understand that exceptional creative assets are the heartbeat of successful social advertising campaigns. That's why our commitment to delivering high-quality creative and landing pages are ingrained in every advertising plan.
+					At Boost Brands, we understand that exceptional creative assets are the heartbeat of successful social advertising campaigns. That&apos;s why our commitment to delivering high-quality creative and landing pages are ingrained in every advertising plan.
 					
 				</p>
 			</div>
