@@ -45,8 +45,8 @@ const WhyBoostPt2 = () => {
 				{headingData.description}
 			</p>
 			{isInWindow ? (
-				<div className="flex flex-wrap justify-center gap-6 mt-6">
-					{statData.map((stat, index) => <NumberStat  key={index} number={stat.number} text={stat.description}/>)}
+				<div className="flex flex-wrap justify-center mt-6">
+					{statData.map((stat, index) => <NumberStat  key={index} number={stat.number} numberText={stat.numberText} text={stat.description}/>)}
 				</div>
 			) : (
 				<div className="h-[165px] w-full"></div>

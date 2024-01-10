@@ -51,14 +51,14 @@ const CreativeServices = () => {
 				<Title>Creative Services</Title>
 				<p
 					className={`mx-auto text-center font-normal mt-10 max-w-3xl text-boost-black-1 text-lg ${avenir.className}`}>
-					Elevate Your Brand with Boost Brands Creative Services. <br></br>
-					<span className="font-bold">
+					<span className="font-bold">Elevate Your Brand with Boost Brands Creative Services.</span> <br></br>
+					
 					At Boost Brands, we understand that exceptional creative assets are the heartbeat of successful social advertising campaigns. That's why our commitment to delivering high-quality creative and landing pages are ingrained in every advertising plan.
-					</span>
+					
 				</p>
 			</div>
 			<div>
-				{services.map(({title, description, flipped}) => <Service title={title} description={description} flipped={flipped} />)}
+				{services.map(({title, description, flipped}, index) => <Service key={index} title={title} description={description} flipped={flipped} />)}
 			</div>
 		</div>
 	);

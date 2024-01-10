@@ -24,7 +24,7 @@ const Service: FC<ServiceProps> = ({ title, description, flipped = false }) => {
 				className="arch-creative-img-square border-[2px] border-boost-black-1"
 			/>
 			<div className="flex flex-col justify-center gap-10">
-				<SubTitle styles={"lg:text-left"}>{title}</SubTitle>
+				<SubTitle styles={"lg:text-left max-w-[450px] lg:max-w-[650px]"}>{title}</SubTitle>
 				<p
 					className={` text-center font-normal text-lg text-boost-black-1 max-w-[450px] lg:max-w-[650px] lg:text-left ${avenir.className} `}>
 					{description}

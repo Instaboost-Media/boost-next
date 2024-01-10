@@ -9,7 +9,7 @@ type CheckItemProps = {
 const CheckItem: FC<CheckItemProps> = ({ children }) => {
 	return (
 		<li className="flex items-center gap-3">
-			<div className="bg-[#FBE4E9] w-8 h-8 min-w-8 rounded-full flex justify-center items-center border-[1px] border-boost-black-1">
+			<div className="bg-[#cdf4a8] w-8 h-8 min-w-8 rounded-full flex justify-center items-center border-[1px] border-boost-black-1">
 				<Image
 					src="/check-solid.svg"
 					width={0}

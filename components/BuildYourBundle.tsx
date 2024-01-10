@@ -17,7 +17,7 @@ const BuildYourBundle = () => {
 					harum, ad porro deleniti amet!
 				</p>
 			</div>
-			<div className="flex justify-center flex-wrap items-center gap-8 mt-10">
+			<div className="flex justify-center flex-wrap gap-8 mt-10">
 				<Bundle title="Mini Boost" price={4999} icon={"/chart-solid-1.svg"} bullets={[
 					"Weekly Strategy Calls: Personalized sessions with dedicated account managers",
 					"Comprehensive Setup: Pixel tracking, ensuring precise performance monitoring",

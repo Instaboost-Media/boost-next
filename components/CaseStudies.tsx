@@ -26,25 +26,25 @@ const CaseStudies = () => {
 					navigation
 					pagination={{ clickable: true }}>
 					<SwiperSlide className="!flex !justify-center">
-						<BoxVideo />
+						<BoxVideo src="/case-1.mp4" styleOverride={"!w-full"}/>
 					</SwiperSlide>
 					<SwiperSlide className="!flex !justify-center">
-						<BoxVideo />
+						<BoxVideo src="/case-2.mp4" styleOverride={"!h-full"}/>
 					</SwiperSlide>
 					<SwiperSlide className="!flex !justify-center">
-						<BoxVideo />
+						<BoxVideo src="/case-3.mp4" styleOverride={"!w-full"}/>
 					</SwiperSlide>
 					<SwiperSlide className="!flex !justify-center">
-						<BoxVideo />
+						<BoxVideo src="/case-4.mp4" styleOverride={"!w-full"}/>
 					</SwiperSlide>
 				</Swiper>
 			</div>
 			<div className="justify-center gap-4 flex-wrap mt-16 hidden md:flex max-w-[600px] xl:max-w-none mx-auto">
 				{" "}
-				<BoxVideo />
-				<BoxVideo />
-				<BoxVideo />
-				<BoxVideo />
+				<BoxVideo src="/case-1.mp4" styleOverride={"!w-full"}/>
+				<BoxVideo src="/case-2.mp4" styleOverride={"!h-full"}/>
+				<BoxVideo src="/case-3.mp4" styleOverride={"!w-full"}/>
+				<BoxVideo src="/case-4.mp4" styleOverride={"!w-full"}/>
 			</div>
 		</div>
 	);
