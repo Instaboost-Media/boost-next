@@ -37,6 +37,21 @@ const logos =
 },
 {
 	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-11.png"
+},
+{
+	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-12.png"
+},
+{
+	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-13.png"
+},
+{
+	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-14.png"
+},
+{
+	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-15.png"
+},
+{
+	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-16.png"
 }
 ]
 

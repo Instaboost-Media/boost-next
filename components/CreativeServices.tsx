@@ -21,7 +21,7 @@ const services = [
 	{
 	  title: "Graphic Design: Turning Ideas into Visual Solutions",
 	  description: "Our creative talents bring practical and effective design solutions to the table. Grounded in critical thinking and immersive strategies, we value the imagery that creates stories and connections. Using typefaces, colors, imagery, and other graphic elements, our designers craft narratives that perfectly align with your brand.",
-	 src: "http://boost.instaboostinc.com/wp-content/uploads/2024/01/4f432d9234988a5f33b26e0ba06bc6fe.gif", 
+	 src: "http://boost.instaboostinc.com/wp-content/uploads/2024/01/ultra.gif", 
 	 isVideo: false, 
 	 flipped: false,
 	},

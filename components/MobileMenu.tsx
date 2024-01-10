@@ -28,6 +28,9 @@ const MovileMenu: FC<MobileMenuProps> = ({
 					</button>
 				</div>
 				<div className="">
+				<div className="p-8">
+						<InstaButton/>
+					</div>
 					<ul className="px-8 flex flex-col">
 						{navItems.map(({ text, sectionId }, index) => (
 							<MobileMenuItem
@@ -38,9 +41,7 @@ const MovileMenu: FC<MobileMenuProps> = ({
 							</MobileMenuItem>
 						))}
 					</ul>
-					<div className="p-8">
-						<InstaButton/>
-					</div>
+
 				</div>
 
 				<div className="p-8  mt-auto sticky bottom-0 border-t-[2px] border-boost-black-2 bg-boost-tan-1 flex justify-around">
