@@ -3,7 +3,7 @@ import React from 'react';
 
 const Popup = () => {
   return (
-    <div className='fixed w-full h-full bg-red-500 top-0 left-0'>
+    <div className=''>
       <iframe
         src="https://api.leadconnectorhq.com/widget/form/LJcgb0F8SD4REqocrLYw"
         style={{ width: '100%', height: '100%', border: 'none', borderRadius: '3px' }}
@@ -22,7 +22,7 @@ const Popup = () => {
         title="test"
       >
       </iframe>
-      <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+      <script src="https://link.msgsndr.com/js/form_embed.js" async></script>
     </div>
   );
 };
