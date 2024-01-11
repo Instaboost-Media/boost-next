@@ -4,28 +4,28 @@ import InstagramItem from "./InstagramItem";
 const data = {
 	posts: [
 		{
-			img: "http://boost.instaboostinc.com/wp-content/uploads/2024/01/post-0.jpg",
+			img: "https://boost.instaboostinc.com/wp-content/uploads/2024/01/post-0.jpg",
 		},
 		{
-			img: "http://boost.instaboostinc.com/wp-content/uploads/2024/01/post-1.jpg",
+			img: "https://boost.instaboostinc.com/wp-content/uploads/2024/01/post-1.jpg",
 		},
 		{
-			img: "http://boost.instaboostinc.com/wp-content/uploads/2024/01/post-2.jpg",
+			img: "https://boost.instaboostinc.com/wp-content/uploads/2024/01/post-2.jpg",
 		},
 		{
-			img: "http://boost.instaboostinc.com/wp-content/uploads/2024/01/post-3.jpg",
+			img: "https://boost.instaboostinc.com/wp-content/uploads/2024/01/post-3.jpg",
 		},
 		{
-			img: "http://boost.instaboostinc.com/wp-content/uploads/2024/01/post-4.jpg",
+			img: "https://boost.instaboostinc.com/wp-content/uploads/2024/01/post-4.jpg",
 		},
 		{
-			img: "http://boost.instaboostinc.com/wp-content/uploads/2024/01/post-5.jpg",
+			img: "https://boost.instaboostinc.com/wp-content/uploads/2024/01/post-5.jpg",
 		},
 		{
-			img: "http://boost.instaboostinc.com/wp-content/uploads/2024/01/post-6.jpg",
+			img: "https://boost.instaboostinc.com/wp-content/uploads/2024/01/post-6.jpg",
 		},
 		{
-			img: "http://boost.instaboostinc.com/wp-content/uploads/2024/01/post-7.jpg",
+			img: "https://boost.instaboostinc.com/wp-content/uploads/2024/01/post-7.jpg",
 		},
 	],
 };

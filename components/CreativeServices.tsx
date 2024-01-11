@@ -7,28 +7,28 @@ const services = [
 	{
 	  title: "Motion Design: Moving Your Brand Forward",
 	  description: "In a world in constant motion, our creative team takes the lead. We analyze data, devise strategies, and breathe life into captivating interactions, ensuring our brands move forward dynamically.",
-	 	src: "http://boost.instaboostinc.com/wp-content/uploads/2024/01/motion.mp4", 
+	 	src: "https://boost.instaboostinc.com/wp-content/uploads/2024/01/motion.mp4", 
 		isVideo: true,
 	  flipped: false,
 	},
 	{
 	  title: "Video Editing: Crafting Stories that Resonate",
 	  description: "From editing footage to color correction and special effects, our experienced team shapes raw content into brand new stories with impactful messages. Responding to diverse videography needs, we harmonize footage with elements like ambiance creation and sound/music editing, drawing from an extensive licensed creative pool.",
-	src: "http://boost.instaboostinc.com/wp-content/uploads/2024/01/video-editing.mp4",
+	src: "https://boost.instaboostinc.com/wp-content/uploads/2024/01/video-editing.mp4",
 	isVideo: true,  
 	flipped: true,
 	},
 	{
 	  title: "Graphic Design: Turning Ideas into Visual Solutions",
 	  description: "Our creative talents bring practical and effective design solutions to the table. Grounded in critical thinking and immersive strategies, we value the imagery that creates stories and connections. Using typefaces, colors, imagery, and other graphic elements, our designers craft narratives that perfectly align with your brand.",
-	 src: "http://boost.instaboostinc.com/wp-content/uploads/2024/01/ultra.gif", 
+	 src: "https://boost.instaboostinc.com/wp-content/uploads/2024/01/ultra.gif", 
 	 isVideo: false, 
 	 flipped: false,
 	},
 	{
 		title: "UI/UX Design: Crafting Seamless User Journeys",
 		description: "Utilizing data-driven decision-making and human-centered design, our team crafts engaging user journeys, captivating landing pages, and cutting-edge audio strategies. Delivering relevant content and optimized insights, we guarantee a seamless and standout experience, making it difficult for competitors to replicate your success.",
-		src: "http://boost.instaboostinc.com/wp-content/uploads/2024/01/typing.gif", 
+		src: "https://boost.instaboostinc.com/wp-content/uploads/2024/01/typing.gif", 
 		isVideo: false, 
 		flipped: true,
 	  }

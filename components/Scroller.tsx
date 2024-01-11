@@ -6,52 +6,52 @@ import Image from "next/image";
 const logos = 
 [
 {
-	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-1.png"
+	src:"https://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-1.png"
 },
 {
-	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-2.png"
+	src:"https://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-2.png"
 },
 {
-	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-3.png"
+	src:"https://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-3.png"
 },
 {
-	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-4.png"
+	src:"https://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-4.png"
 },
 {
-	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-5.png"
+	src:"https://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-5.png"
 },
 {
-	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-6.png"
+	src:"https://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-6.png"
 },
 {
-	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-7.png"
+	src:"https://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-7.png"
 },
 {
-	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-8.png"
+	src:"https://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-8.png"
 },
 {
-	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-9.png"
+	src:"https://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-9.png"
 },
 {
-	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-10.png"
+	src:"https://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-10.png"
 },
 {
-	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-11.png"
+	src:"https://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-11.png"
 },
 {
-	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-12.png"
+	src:"https://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-12.png"
 },
 {
-	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-13.png"
+	src:"https://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-13.png"
 },
 {
-	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-14.png"
+	src:"https://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-14.png"
 },
 {
-	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-15.png"
+	src:"https://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-15.png"
 },
 {
-	src:"http://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-16.png"
+	src:"https://boost.instaboostinc.com/wp-content/uploads/2024/01/logo-16.png"
 }
 ]
 

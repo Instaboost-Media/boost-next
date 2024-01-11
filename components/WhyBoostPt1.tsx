@@ -38,7 +38,7 @@ const WhyBoostPt1 = async () => {
 				</p>
 			</div>
 			<Image
-				src="http://boost.instaboostinc.com/wp-content/uploads/2024/01/beach.png"
+				src="https://boost.instaboostinc.com/wp-content/uploads/2024/01/beach.png"
 				width={500}
 				height={500}
 				alt="instaboost logo"
@@ -47,7 +47,7 @@ const WhyBoostPt1 = async () => {
 		</div>
 		<div className="flex flex-col justify-center items-center gap-10 mt-20 lg:gap-28 lg:flex-row-reverse">
 			<Image
-				src="http://boost.instaboostinc.com/wp-content/uploads/2024/01/desk.png"
+				src="https://boost.instaboostinc.com/wp-content/uploads/2024/01/desk.png"
 				width={500}
 				height={500}
 				alt="instaboost logo"
