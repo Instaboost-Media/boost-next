@@ -4,10 +4,10 @@ import React from 'react';
 import Image from 'next/image';
 import Script from 'next/script';
 
-const Popup = ({ handlePopup, openPopup}) => {
+const PopupMobile = ({handlePopup, openPopup}) => {
   return (
     <div onClick={handlePopup} className={`z-40 fixed w-full h-full left-0 top-0 bg-black bg-opacity-75 flex justify-center items-center overflow-auto ${openPopup ? "" : "pointer-events-none opacity-0"}`}>
-      <div className='w-[650px] h-[885px] absolute top-20'>
+      <div className='w-full top-10 md:w-[650px] h-[900px] absolute md:top-20'>
       <button type="button" className='absolute left-7 top-7 z-50'>
         <Image
               src="/xmark-solid.svg"
@@ -18,9 +18,9 @@ const Popup = ({ handlePopup, openPopup}) => {
             />
       </button>
       <iframe
-        src="https://link.instaboostinc.com/widget/form/MjufEOKIcIATadF1aq20"
+        src="https://link.instaboostinc.com/widget/form/4wDit6iV5Sl1xT7QpZOZ"
         style={{width: "100%", height: "895px"}}
-        id="inline-MjufEOKIcIATadF1aq20" 
+        id="inline-4wDit6iV5Sl1xT7QpZOZ" 
         data-layout="{'id':'INLINE'}"
         data-trigger-type="alwaysShow"
         data-trigger-value=""
@@ -28,11 +28,11 @@ const Popup = ({ handlePopup, openPopup}) => {
         data-activation-value=""
         data-deactivation-type="neverDeactivate"
         data-deactivation-value=""
-        data-form-name="Boost Brands Form"
-        data-height="884"
-        data-layout-iframe-id="inline-MjufEOKIcIATadF1aq20"
-        data-form-id="MjufEOKIcIATadF1aq20"
-        title="Boost Brands Form"
+        data-form-name="Boost Brands Form - Mobile"
+        data-height="890"
+        data-layout-iframe-id="inline-4wDit6iV5Sl1xT7QpZOZ"
+        data-form-id="4wDit6iV5Sl1xT7QpZOZ"
+        title="Boost Brands Form - Mobile"
             >
       </iframe>
       <Script src="https://link.instaboostinc.com/js/form_embed.js" async></Script>
@@ -43,5 +43,4 @@ const Popup = ({ handlePopup, openPopup}) => {
   );
 };
 
-export default Popup;
-
+export default PopupMobile;

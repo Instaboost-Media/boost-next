@@ -13,6 +13,7 @@ const WhyBoostPt1 = async () => {
 		
 		<div className="flex flex-col justify-center items-center gap-10 mt-20 lg:gap-28 lg:flex-row-reverse">
 			<Image
+				priority
 				src={imageLink}
 				width={500}
 				height={500}

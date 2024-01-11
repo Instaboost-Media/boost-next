@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import Image from "next/image";
 import MobileMenuItem from "./MobileMenuItem";
-import InstaButton from "./InstaButton";
+import InstaButtonMobile from "./InstaButtonMobile";
 import SocialButton from "./SocialButton";
 import { MobileMenuProps } from "@/models/navbar";
 
@@ -29,7 +29,7 @@ const MovileMenu: FC<MobileMenuProps> = ({
 				</div>
 				<div className="">
 				<div className="p-8">
-						<InstaButton/>
+						<InstaButtonMobile/>
 					</div>
 					<ul className="px-8 flex flex-col">
 						{navItems.map(({ text, sectionId }, index) => (

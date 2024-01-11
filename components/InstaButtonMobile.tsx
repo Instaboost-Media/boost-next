@@ -1,7 +1,7 @@
 // @ts-nocheck
 'use client'
 import React, { useState } from "react";
-import Popup from "./Popup";
+import PopupMobile from "./PopupMobile";
 
 
 const InstaButton = () => {
@@ -14,7 +14,7 @@ const InstaButton = () => {
 
 	return (
 		<>
-		<Popup handlePopup={handlePopup} openPopup={openPopup}/>
+		<PopupMobile handlePopup={handlePopup} openPopup={openPopup}/>
 		<button
 			onClick={handlePopup}
 			
