@@ -18,7 +18,7 @@ const Industries = () => {
 							loop
 							muted
 							playsInline
-							src="http://boost.instaboostinc.com/wp-content/uploads/2024/01/drinks.mp4"
+							src="https://boost.instaboostinc.com/wp-content/uploads/2024/01/drinks.mp4"
 							poster=""></video>
 						<h3 className="text-3xl xl:text-4xl font-semibold">
 							Food & Beverage
@@ -26,7 +26,7 @@ const Industries = () => {
 					</div>
 					<div className="flex justify-center flex-col items-center gap-20 lg:flex-col-reverse">
 						<Image
-							src="http://boost.instaboostinc.com/wp-content/uploads/2024/01/skin-care.png"
+							src="https://boost.instaboostinc.com/wp-content/uploads/2024/01/skin-care.png"
 							width={500}
 							height={500}
 							alt="instaboost logo"
@@ -46,7 +46,7 @@ const Industries = () => {
 						loop
 						muted
 						playsInline
-						src="http://boost.instaboostinc.com/wp-content/uploads/2024/01/health.mp4"
+						src="https://boost.instaboostinc.com/wp-content/uploads/2024/01/health.mp4"
 						poster=""></video>
 						{/* <Image
 							src="/health.mp4"
@@ -61,7 +61,7 @@ const Industries = () => {
 					</div>
 					<div className="flex justify-center flex-col items-center gap-20 lg:gap-16 lg:flex-col-reverse">
 						<Image
-							src="http://boost.instaboostinc.com/wp-content/uploads/2024/01/jewelry.png"
+							src="https://boost.instaboostinc.com/wp-content/uploads/2024/01/jewelry.png"
 							width={500}
 							height={500}
 							alt="instaboost logo"
