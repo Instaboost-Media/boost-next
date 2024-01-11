@@ -1,10 +1,20 @@
 // @ts-nocheck
 import React from 'react';
+import Image from 'next/image';
 
-const Popup = ({openPopup, handlePopup}) => {
+const Popup = ({ handlePopup}) => {
   return (
-    <div onClick={handlePopup} className={`z-50 fixed w-full h-full left-0 top-0 bg-black bg-opacity-75 flex justify-center items-center overflow-auto ${openPopup ? "" : "pointer-events-none opacity-0"}`}>
-      <div className='w-[650px] h-[740px] relative'>
+    <div onClick={handlePopup} className={`z-40 fixed w-full h-full left-0 top-0 bg-black bg-opacity-75 flex justify-center items-center overflow-auto`}>
+      <div className='w-full top-10 md:w-[650px] h-[775px] absolute md:top-20'>
+      <button type="button" className='absolute left-7 top-7 z-50'>
+        <Image
+              src="/xmark-solid.svg"
+              width={500}
+              height={500}
+              alt="instaboost logo"
+              className="object-cover w-4 pointer-events-none"
+            />
+      </button>
       <iframe
         src="https://link.instaboostinc.com/widget/form/MjufEOKIcIATadF1aq20"
         className='w-full h-full rounded-md absolute' 

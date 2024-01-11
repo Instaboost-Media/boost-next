@@ -65,7 +65,7 @@ const Scroller = () => {
 							width={500}
 							height={500}
 							alt="company"
-							className="h-6 w-fit"
+							className="h-6 w-full"
 						/>)}
 						{logos.map(({src}, index) => <Image
 						key={index}
@@ -73,7 +73,7 @@ const Scroller = () => {
 							width={500}
 							height={500}
 							alt="company"
-							className="h-6 w-fit"
+							className="h-6 w-full"
 						/>)}
 						{logos.map(({src}, index) => <Image
 						key={index}
@@ -81,7 +81,7 @@ const Scroller = () => {
 							width={500}
 							height={500}
 							alt="company"
-							className="h-6 w-fit"
+							className="h-6 w-full"
 						/>)}
 						{logos.map(({src}, index) => <Image
 						key={index}
@@ -89,7 +89,7 @@ const Scroller = () => {
 							width={500}
 							height={500}
 							alt="company"
-							className="h-6 w-fit"
+							className="h-6 w-full"
 						/>)}
 						{logos.map(({src}, index) => <Image
 						key={index}
@@ -97,7 +97,7 @@ const Scroller = () => {
 							width={500}
 							height={500}
 							alt="company"
-							className="h-6 w-fit"
+							className="h-6 w-full"
 						/>)}
 						</div>
 			{/* <p
