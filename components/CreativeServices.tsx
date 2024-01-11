@@ -7,7 +7,7 @@ const services = [
 	{
 	  title: "Motion Design: Moving Your Brand Forward",
 	  description: "In a world in constant motion, our creative team takes the lead. We analyze data, devise strategies, and breathe life into captivating interactions, ensuring our brands move forward dynamically.",
-	 	src: "https://boost.instaboostinc.com/wp-content/uploads/2024/01/motion.mp4", 
+	 	src: "https://boost.instaboostinc.com/wp-content/uploads/2024/01/motion-comp.mp4", 
 		isVideo: true,
 	  flipped: false,
 	},

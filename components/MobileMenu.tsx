@@ -23,7 +23,7 @@ const MovileMenu: FC<MobileMenuProps> = ({
 							width={0}
 							height={0}
 							alt="instaboost logo"
-							className="w-4"
+							className="w-4 pointer-events-none"
 						/>
 					</button>
 				</div>

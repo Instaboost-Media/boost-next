@@ -18,7 +18,7 @@ const Industries = () => {
 							loop
 							muted
 							playsInline
-							src="https://boost.instaboostinc.com/wp-content/uploads/2024/01/drinks.mp4"
+							src="https://boost.instaboostinc.com/wp-content/uploads/2024/01/drinks-comp.mp4"
 							poster=""></video>
 						<h3 className="text-3xl xl:text-4xl font-semibold">
 							Food & Beverage
