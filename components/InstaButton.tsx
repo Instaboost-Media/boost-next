@@ -8,14 +8,13 @@ const InstaButton = () => {
 	const [openPopup, setOpenPopup] = useState(false)
 
 	const handlePopup = () => {
-		console.log("hello")
 		setOpenPopup((current) => !current)
 	}
 
 
 	return (
 		<>
-		{openPopup && <Popup handlePopup={handlePopup}/>}
+		{<Popup handlePopup={handlePopup} openPopup={openPopup}/>}
 		<button
 			onClick={handlePopup}
 			
