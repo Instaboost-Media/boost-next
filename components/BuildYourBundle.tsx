@@ -34,7 +34,7 @@ const BuildYourBundle = () => {
 					"Enhanced Strategy: Fine-tuning to maximize your e-commerce growth",
 					"Great for brands wanting to branch out on 2-3 platforms"
 				]}/>
-				<Bundle title="Max Boost" price={7999} icon={"/chart-solid-3.svg"} bullets={[
+				<Bundle title="Max Boost" text="Custom Quote" icon={"/chart-solid-3.svg"} bullets={[
 					"All Surge Boost Features",
 					"Exclusive Industry Insights: Specialized strategies for Food & Beverage or Skincare & Beauty",
 					"Elite Account Management: Priority support and strategic guidance",

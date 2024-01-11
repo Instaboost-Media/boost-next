@@ -4,12 +4,13 @@ import CheckItem from "./CheckItem";
 
 type BundleProps = {
 	title: string;
-	price: number;
+	price?: number;
 	icon: string;
-	bullets: string[]
+	bullets: string[];
+	text?: string;
 };
 
-const Bundle: FC<BundleProps> = ({ title, price, icon, bullets }) => {
+const Bundle: FC<BundleProps> = ({ title, price, icon, bullets, text }) => {
 	return (
 		<div className="rounded-t-[180px] border-[2px] border-boost-black-1 max-w-[380px] mt-16 bg-white">
 			<div className="rounded-t-[180px] bg-boost-tan-1 flex justify-center flex-col items-center p-10 gap-6 relative">
@@ -27,7 +28,10 @@ const Bundle: FC<BundleProps> = ({ title, price, icon, bullets }) => {
 					{title}
 				</h3>
 				<p className="text-4xl leading-[36px] text-boost-black-1 xs:text-4xl text-center">
-					${price} <span className="text-xl xs:text-2xl">/month</span>
+					{text ? <>{text}</> : <>
+						${price} <span className="text-xl xs:text-2xl">/month</span>
+					</>}
+					
 				</p>
 			</div>
 			<div className="p-10 border-t-[2px] border-boost-black-1">
