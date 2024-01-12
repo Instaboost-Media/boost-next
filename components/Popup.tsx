@@ -7,7 +7,7 @@ import Script from 'next/script';
 const Popup = ({ handlePopup, openPopup}) => {
   return (
     <div onClick={handlePopup} className={`z-40 fixed w-full h-full left-0 top-0 bg-black bg-opacity-75 flex justify-center items-center overflow-auto ${openPopup ? "" : "pointer-events-none opacity-0"}`}>
-      <div className='w-[650px] h-[950px] absolute top-20 bg-red-500'>
+      <div className='w-[650px] h-[950px] absolute top-20'>
       <button type="button" className='absolute left-7 top-7 z-50'>
         <Image
               src="/xmark-solid.svg"
