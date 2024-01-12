@@ -26,7 +26,7 @@ const InstagramItem: FC<InstagramItemProps> = ({ imgSrc }) => {
 				width={500}
 				height={500}
 				alt="instaboost logo"
-				className="object-cover !h-full"
+				className="object-cover w-full"
 			/>
 		</a>
 	);
