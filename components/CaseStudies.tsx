@@ -40,7 +40,6 @@ const CaseStudies = () => {
 				</Swiper>
 			</div>
 			<div className="justify-center gap-4 flex-wrap mt-16 hidden md:flex max-w-[600px] xl:max-w-none mx-auto">
-				{" "}
 				<BoxVideo src="https://boost.instaboostinc.com/wp-content/uploads/2024/01/case-1.mp4" styleOverride={"!w-full"}/>
 				<BoxVideo src="https://boost.instaboostinc.com/wp-content/uploads/2024/01/case-2.mp4" styleOverride={"!h-full"}/>
 				<BoxVideo src="https://boost.instaboostinc.com/wp-content/uploads/2024/01/case-3.mp4" styleOverride={"!w-full"}/>

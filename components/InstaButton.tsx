@@ -1,11 +1,17 @@
 // @ts-nocheck
 'use client'
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Popup from "./Popup";
 
 
 const InstaButton = () => {
 	const [openPopup, setOpenPopup] = useState(false)
+
+	useEffect(() => {
+		setTimeout(() => {
+			setOpenPopup(true)
+		}, 60000)
+	}, [])
 
 	const handlePopup = () => {
 		setOpenPopup((current) => !current)
