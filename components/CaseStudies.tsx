@@ -35,7 +35,7 @@ const CaseStudies = () => {
 						<BoxVideo src="https://boost.instaboostinc.com/wp-content/uploads/2024/01/case-3.mp4" styleOverride={"!w-full"}/>
 					</SwiperSlide>
 					<SwiperSlide className="!flex !justify-center">
-						<BoxVideo src="https://boost.instaboostinc.com/wp-content/uploads/2024/01/case-4-comp;.mp4" styleOverride={"!w-full"}/>
+						<BoxVideo src="https://boost.instaboostinc.com/wp-content/uploads/2024/01/case-4-comp.mp4" styleOverride={"!w-full"}/>
 					</SwiperSlide>
 				</Swiper>
 			</div>

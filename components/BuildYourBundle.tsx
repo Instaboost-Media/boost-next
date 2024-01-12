@@ -12,9 +12,7 @@ const BuildYourBundle = () => {
 				<Title>Build Your Bundle</Title>
 				<p
 					className={`font-normal text-center text-boost-black-1 max-w-[650px] text-lg ${avenir.className}`}>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et accusamus
-					ea accusantium commodi, sit eaque nobis minus, quia dolorum temporibus
-					harum, ad porro deleniti amet!
+					Elevate Your E-commerce Presence with Our Custom-Tailored Growth Packages: From the Mini Boost, ideal for brands starting on 1-2 platforms, to the Surge Boost, perfect for those expanding on 2-3 platforms, and the Max Boost, a bespoke solution offering exclusive industry insights and limitless brand scaling opportunities.
 				</p>
 			</div>
 			<div className="flex justify-center flex-wrap gap-8 mt-10">
