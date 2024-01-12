@@ -7,7 +7,7 @@ import Script from 'next/script';
 const PopupMobile = ({handlePopup, openPopup}) => {
   return (
     <div onClick={handlePopup} className={`z-40 fixed w-full h-full left-0 top-0 bg-black bg-opacity-75 flex justify-center items-center overflow-auto ${openPopup ? "" : "pointer-events-none opacity-0"}`}>
-      <div className='w-full top-10 md:w-[650px] h-[900px] absolute md:top-20'>
+      <div className='w-full top-10 md:w-[650px] h-[1200px] absolute md:top-20'>
       <button type="button" className='absolute left-7 top-7 z-50'>
         <Image
               src="/xmark-solid.svg"
@@ -19,7 +19,7 @@ const PopupMobile = ({handlePopup, openPopup}) => {
       </button>
       <iframe
         src="https://link.instaboostinc.com/widget/form/4wDit6iV5Sl1xT7QpZOZ"
-        style={{width: "100%", height: "895px"}}
+        style={{width: "100%", height: "1155px"}}
         id="inline-4wDit6iV5Sl1xT7QpZOZ" 
         data-layout="{'id':'INLINE'}"
         data-trigger-type="alwaysShow"
